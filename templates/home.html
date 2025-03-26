@@ -4,8 +4,8 @@
 <div class="pb-10">
   {{ section.content | safe }}
 </div>
-<div class="grid">
-  <div class="col-1">
+<div class="grid lg:grid-cols-4 md:grid-cols-2">
+  <div class="m-5">
     <!-- Blog posts -->
     <h1>Recent Blog Posts</h1>
     {% set blog_section = get_section(path='blog/_index.md') %}
@@ -19,7 +19,7 @@
   </div>
 
   <!-- Projects -->
-  <div class="col-2">
+  <div class="m-5">
   <h1>Projects</h1>
   {% set project_section = get_section(path='projects/_index.md') %}
   {% for section_page in project_section.pages %}
@@ -32,7 +32,7 @@
   </div>
 
   <!-- Collections -->
-  <div class="col-3">
+  <div class="m-5">
   <h1>Creative Collections</h1>
   {% set creative_section = get_section(path='creative_collections/_index.md') %}
   {% for section_page in creative_section.pages %}
@@ -45,7 +45,7 @@
   </div>
 
   <!-- Nightlife -->
-  <div class="col-4">
+  <div class="m-5">
   <h1>Nightlife</h1>
   {% set nightlife_section = get_section(path='nightlife/_index.md') %}
   {% for section_page in nightlife_section.pages %}
