@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MyBlog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    htmL {
+      @apply bg-neutral-200 text-neutral-950;
+    }
+    a {
+      @apply text-pink-600;
+    }
+    a:visited {
+      @apply text-pink-900;
+    }
+    h1 {
+      @apply text-4xl;
+    }
+    h2 {
+      @apply text-2xl;
+    }
+    h3 {
+      @apply text-xl;
+    }
+  </style>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <section class="section">
+
+    <div class="container m-10">
+        <h1 class="font-bold">phosphorescent.dev</h1>
+        <div class="m-10">
+          {% block content %} {% endblock %}
+        </div>
+    </div>
+  </section>
+</body>
+
+</html>
