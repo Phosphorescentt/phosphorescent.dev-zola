@@ -4,10 +4,10 @@
 <div class="pb-10">
   {{ section.content | safe }}
 </div>
-<div class="grid lg:grid-cols-4 md:grid-cols-2">
+<div class="grid grid-cols-1 xl:grid-cols-4">
   <div class="m-5">
     <!-- Blog posts -->
-    <h1>Recent Blog Posts</h1>
+    <h1>Blog</h1>
     {% set blog_section = get_section(path='blog/_index.md') %}
     {% for section_page in blog_section.pages %}
       <span>
@@ -15,7 +15,7 @@
       </span>
       <br>
     {% endfor %}
-    <a href="{{ get_url(path='@/blog/_index.md') }}">see more...</a>
+    <h6><a href="{{ get_url(path='@/blog/_index.md') }}">see more...</a></h6>
   </div>
 
   <!-- Projects -->
@@ -28,20 +28,20 @@
     </span>
     <br>
   {% endfor %}
-  <a href="{{ get_url(path='@/projects/_index.md') }}">more...</a>
+  <h6><a href="{{ get_url(path='@/projects/_index.md') }}">more...</a></h6>
   </div>
 
   <!-- Collections -->
   <div class="m-5">
-  <h1>Creative Collections</h1>
-  {% set creative_section = get_section(path='creative_collections/_index.md') %}
+  <h1>Creative</h1>
+  {% set creative_section = get_section(path='creative/_index.md') %}
   {% for section_page in creative_section.pages %}
     <span>
       <a href="{{ section_page.permalink | safe }}">{{ section_page.title }}</a>
     </span>
     <br>
   {% endfor %}
-  <a href="{{ get_url(path='@/creative_collections/_index.md') }}">more...</a>
+  <h6><a href="{{ get_url(path='@/creative/_index.md') }}">more...</a></h6>
   </div>
 
   <!-- Nightlife -->
@@ -54,7 +54,7 @@
     </span>
     <br>
   {% endfor %}
-  <a href="{{ get_url(path='@/nightlife/_index.md') }}">more...</a>
+  <h6><a href="{{ get_url(path='@/nightlife/_index.md') }}">more...</a></h6>
   </div>
 
 

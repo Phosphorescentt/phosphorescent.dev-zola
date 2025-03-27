@@ -4,10 +4,11 @@
 <h1 class="title">
   {{ page.title }}
 </h1>
-<p class="subtitle"><strong>{{ page.date }}</strong>
+<p class="subtitle mt-2"><strong>{{ page.date }}</strong>
+  <br>
   {% if page.taxonomies.tags %}
     {% for tag in page.taxonomies.tags %}
-  <a href="/tags/{{tag}}">{{tag}}</a>
+      <a href="/tags/{{tag}}">{{tag}}</a>
     {% endfor %}
   {% endif %}
 
