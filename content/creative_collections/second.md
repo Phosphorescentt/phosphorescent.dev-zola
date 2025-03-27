@@ -2,6 +2,8 @@
 title = "Collection 2"
 weight = 20
 date = 2019-11-27
+[taxonomies]
+tags=[]
 +++
 
 # h1

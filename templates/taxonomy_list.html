@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>{{taxonomy.name}}</h1>
+
+<ul>
+{% for term in terms %}
+  <li><a href={{get_taxonomy_url(kind="tags", name=term.name)}}>{{term.name}}</a></li>
+{% endfor %}
+</ul>
+{% endblock content %}

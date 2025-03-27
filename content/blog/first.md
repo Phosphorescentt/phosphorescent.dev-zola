@@ -1,6 +1,8 @@
 +++
 title = "First post"
 date = 2019-11-27
+[taxonomies]
+tags=["rust", "english", "gaming"]
 +++
 
 # h1

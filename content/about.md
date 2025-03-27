@@ -1,5 +1,5 @@
 +++
-template = "base.html"
+template = "blog-page.html"
 +++
 
 Stuff happens here.
