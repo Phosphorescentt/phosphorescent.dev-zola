@@ -24,3 +24,4 @@ I picked something simple and rolled my own theme for Zola so that I don't get t
 - [ ] Mobile.
 - [ ] Populate the website with some real content.
 - [ ] Develop a sense of style.
+- [ ] Find out if I can specify a different template on a per page basis. This would let me use taxonoise instead of folders, but i want to be able to have diff formatting per term in a `category` taxonomy
