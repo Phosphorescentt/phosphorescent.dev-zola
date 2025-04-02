@@ -6,7 +6,7 @@
 
 <ul>
 {% for term in terms %}
-  <li><a href={{get_taxonomy_url(kind="tags", name=term.name)}}>{{term.name}}</a></li>
+  <li><a href={{get_taxonomy_url(kind=taxonomy.name, name=term.name)}}>{{term.name}}</a></li>
 {% endfor %}
 </ul>
 {% endblock content %}

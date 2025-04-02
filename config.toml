@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://phosphorescent.dev"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -10,7 +10,8 @@ build_search_index = false
 generate_feeds = true
 
 taxonomies = [
-  {name = "tags", feed = true}
+  {name = "tags", feed = true},
+  {name = "categories", feed = true}
 ]
 
 [markdown]
