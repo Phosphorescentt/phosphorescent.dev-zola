@@ -1,65 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>phosphorescent.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      html {
+        @apply bg-neutral-200 text-neutral-950;
+        font-family: "Libre Baskerville", serif;
+      }
+      a {
+        @apply text-pink-600;
+      }
+      a:visited {
+        @apply text-pink-900 underline decoration-wavy;
+      }
+      h1 {
+        @apply text-4xl mt-5;
+      }
+      h2 {
+        @apply text-2xl mt-5;
+      }
+      h3 {
+        @apply text-xl mt-5;
+      }
+      h4 {
+        @apply text-lg mt-5;
+      }
+      h5 {
+        @apply text-base mt-5;
+      }
+      h6 {
+        @apply text-sm mt-5;
+      }
+      p {
+        @apply mt-2;
+      }
+      blockquote {
+        @apply pl-3 border-l-2 border-neutral-950 italic;
+      }
+    </style>
 
-<head>
-  <meta charset="utf-8">
-  <title>phosphorescent.dev</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style type="text/tailwindcss">
-    html {
-      @apply bg-neutral-200 text-neutral-950;
-    }
-    a {
-      @apply text-pink-600;
-    }
-    a:visited {
-      @apply text-pink-900 underline decoration-wavy;
-    }
-    h1 {
-      @apply text-4xl mt-5;
-    }
-    h2 {
-      @apply text-2xl mt-5;
-    }
-    h3 {
-      @apply text-xl mt-5;
-    }
-    h4 {
-      @apply text-lg mt-5;
-    }
-    h5 {
-      @apply text-base mt-5;
-    }
-    h6 {
-      @apply text-sm mt-5;
-    }
-    p {
-      @apply mt-2;
-    }
-    blockquote {
-      @apply pl-3 border-l-2 border-neutral-950 italic
-    }
-  </style>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="/style.css">
-</head>
-
-<body>
-  <section class="section flex justify-center">
-    <div class="m-10 max-w-256 min-w-128 xl:max-w-256 xl:min-w-256">
+  <body>
+    <section class="section flex justify-center">
+      <div class="m-10 max-w-256 min-w-128 xl:max-w-256 xl:min-w-256">
         <h1 class="font-bold">
-          <a href="/"class="text-neutral-950 decoration-neutral-950 underline hover:decoration-wavy hover:decoration-pink-600 visited:hover:decoration-pink-900">
-            <div class="text-neutral-950 place-self-start">phosphorescent.dev</div>
+          <a
+            href="/"
+            class="text-neutral-950 decoration-neutral-950 underline hover:decoration-wavy hover:decoration-pink-600 visited:hover:decoration-pink-900"
+          >
+            <div class="text-neutral-950 place-self-start">
+              phosphorescent.dev
+            </div>
           </a>
         </h1>
-        <div class="m-10">
-          {% block content %} {% endblock %}
-        </div>
-    </div>
-  </section>
-</body>
-
+        <div class="m-10">{% block content %} {% endblock %}</div>
+      </div>
+    </section>
+  </body>
 </html>

@@ -21,12 +21,13 @@ I picked something simple and rolled my own theme for Zola so that I don't get t
 
 # Future Improvements
 
+- [x] Find out if I can specify a different template on a per page basis. This would let me use taxonomies instead of folders, but i want to be able to have diff formatting per term in a `category` taxonomy.
 - [ ] Find a nice way to add in a [table of contents](https://www.getzola.org/documentation/content/table-of-contents/).
-- [ ] Sort links on home page by relevant part from section
+- [ ] Make the tags on the post page look nicer.
+- [ ] Sort links on home page by relevant part from section.
 - [ ] Limit links on home page to highest 10-20.
-- [ ] Make it clear when one link on the home page ends and another one begins.
+- [ ] Make it clear when one link on the home page ends and another one begins (cards or something).
 - [ ] Make styling consistent across the entire website (currently I am just doing whatever feels good and works).
 - [ ] Mobile.
 - [ ] Populate the website with some real content.
 - [ ] Develop a sense of style.
-- [x] Find out if I can specify a different template on a per page basis. This would let me use taxonoise instead of folders, but i want to be able to have diff formatting per term in a `category` taxonomy
