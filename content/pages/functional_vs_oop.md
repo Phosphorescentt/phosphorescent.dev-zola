@@ -1,6 +1,7 @@
 +++
 title = "Functional programming streamlines additional behaviour"
 date = 2025-03-27
+updated = 2025-04-06
 [taxonomies]
 tags=["functional", "oop"]
 categories=["blog"]
