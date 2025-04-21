@@ -1,7 +1,6 @@
 +++
 title = "phosphorescent.dev"
 date = 2025-03-27
-weight = 1
 [taxonomies]
 tags=["tailwind", "zola", "tera"]
 categories=["projects"]
@@ -27,7 +26,8 @@ I picked something simple and rolled my own theme for Zola so that I don't get t
 - [ ] Sort links on home page by relevant part from section.
 - [ ] Limit links on home page to highest 10-20.
 - [ ] Make it clear when one link on the home page ends and another one begins (cards or something).
-- [ ] Make styling consistent across the entire website (currently I am just doing whatever feels good and works).
-- [ ] Mobile.
+- [x] Make styling consistent across the entire website (currently I am just doing whatever feels good and works).
+- [ ] Make it look good on mobile.
 - [ ] Populate the website with some real content.
-- [ ] Develop a sense of style.
+- [x] Add dates to pages listed in taxonomies.
+- [ ] Make the `taxonomy_list.html` template prettier. 
