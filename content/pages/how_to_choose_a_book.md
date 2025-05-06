@@ -1,6 +1,7 @@
 +++
-title = "How to Choose a Book for People Who Don't Read"
+title = "How to Choose a Book for People Who Don't Know What to Read"
 date = 2025-05-06
+updated = 2025-05-06
 
 [taxonomies]
 tags=["reading"]
@@ -22,6 +23,14 @@ it down if you hate it. I've been doing this for a while now and I've been much 
 off for it. It removes a lot of the decision paralysis about what to read. Now I can
 settle for just picking up a copy of something like 1984, Pride & Prejudice or War &
 Peace.
+
+An extension to this idea is that you also pick books that people in your bring up
+regularly. Using this addition has a similar tradeoff to the above: if you read a book
+that someone recommended to you and you hate it, you have at least gained one new thing
+to talk to them about. If you love it, then you had a good time and you've still got the
+conversation point! I have also applied this idea to more types of creative work than
+just books. I wouldn't have watched Breaking Bad, The Silence of the Lambs or Memento if
+I hadn't been given glowing recommendations by my friends.
 
 There is one (possibly huge) caveat to this approach: I feel very strongly that it's
 important to read & engage with creative works that are part of modern culture. If you
