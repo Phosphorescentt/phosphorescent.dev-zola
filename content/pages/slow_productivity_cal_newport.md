@@ -1,6 +1,9 @@
 +++
 title = "Slow Productivity"
 date = 2025-04-21
+
+draft = true
+
 [taxonomies]
 tags=["review", "productivity"]
 categories=["book reviews"]
