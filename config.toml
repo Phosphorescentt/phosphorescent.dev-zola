@@ -10,8 +10,8 @@ build_search_index = false
 generate_feeds = true
 
 taxonomies = [
-  {name = "tags", feed = true},
-  {name = "categories", feed = true}
+  { name = "tags", feed = true },
+  { name = "categories", feed = true },
 ]
 
 [markdown]

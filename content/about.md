@@ -17,5 +17,5 @@ Outside of the technical sphere, I am very passionate about bass music (drum and
 particular) mostly because it is unbelievably good for my soul (more on that one soon).
 I also love spending time with my dog, Monty, and my loving partner, Kat.
 
-And when I don't feel like being productive, you can probably catch me playing Factorio
-or Deadlock.
+And when I don't feel like being productive, you can probably catch me playing Factorio,
+Celeste or Deadlock.
