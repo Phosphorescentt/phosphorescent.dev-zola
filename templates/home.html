@@ -2,20 +2,20 @@
 
 {% block content %}
 
-<div class="pb-10">
+<div>
   {{ section.content | safe }}
 </div>
 
 {% set cat_taxon = get_taxonomy(kind="categories") %}
 
-<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+<div>
   {% for cat_term in cat_taxon.items %}
     {% set cat_term_obj = get_taxonomy_term(kind="categories", term=cat_term.name) %}
-    <div class="m-5">
+    <div>
       <h1>{{cat_term.name | title}}</h1>
       {% for page in cat_term_obj.pages %}
         <span>
-          <a href="{{ page.permalink | safe}}">{{page.title}}</a>
+          <a href="{{ page.permalink | safe}}">{{page.date}} {{page.title}}</a>
         </span>
         <br>
       {% endfor %}

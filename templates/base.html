@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
       html {
-        @apply bg-neutral-200 text-neutral-950;
+        @apply bg-neutral-200 text-neutral-950 text-4xl/5 w-fit lg:text-base;
         font-family: "Libre Baskerville", serif;
       }
       a {
@@ -22,31 +22,40 @@
         @apply text-pink-900 underline decoration-wavy;
       }
       h1 {
-        @apply text-4xl mt-5;
-      }
-      h2 {
         @apply text-2xl mt-5;
       }
-      h3 {
+      h2 {
         @apply text-xl mt-5;
       }
-      h4 {
+      h3 {
         @apply text-lg mt-5;
       }
-      h5 {
+      h4 {
         @apply text-base mt-5;
       }
-      h6 {
+      h5 {
         @apply text-sm mt-5;
       }
+      h6 {
+        @apply text-xs;
+      }
       p {
-        @apply mt-5 text-justify;
+        @apply text-justify pt-1 pb-1;
       }
       blockquote {
         @apply pl-3 border-l-2 border-neutral-950 italic;
       }
       ul {
-        @apply list-disc list-outside pl-4
+        @apply list-disc list-outside pl-5;
+      }
+      li:has(input[type="checkbox"]) {
+        @apply list-none
+      }
+      li:has(input[type="checkbox"]:checked) {
+        @apply line-through
+      }
+      li input {
+        @apply w-3 h-3 mr-1 -ml-5;
       }
     </style>
 
@@ -55,7 +64,7 @@
 
   <body>
     <section class="section flex justify-center">
-      <div class="m-10 md:max-w-200 md:min-w-200 xl:max-w-256 xl:min-w-256">
+      <div class="m-5">
         <h1 class="font-bold">
           <a
             href="/"
@@ -66,7 +75,7 @@
             </div>
           </a>
         </h1>
-        <div class="m-10">{% block content %} {% endblock %}</div>
+        <div class="m-5">{% block content %} {% endblock %}</div>
       </div>
     </section>
   </body>

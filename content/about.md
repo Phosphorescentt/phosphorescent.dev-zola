@@ -13,9 +13,9 @@ internalise more of the good ideas than the bad ones. I am very interested in al
 aspects of software engineering and I'm always super excited to learn new things about
 computers and the systems & culture that enable us to work with them.
 
-Outside of the technical sphere, I am very passionate about bass music (drum and bass in
-particular) mostly because it is unbelievably good for my soul (more on that one soon).
-I also love spending time with my dog, Monty, and my loving partner, Kat.
+Outside of the technical realm, I am very passionate about bass music (drum and bass in
+particular) mostly because it is unbelievably good for my soul. I also love spending
+time with my dog, Monty, and my loving partner, Kat.
 
 And when I don't feel like being productive, you can probably catch me playing Factorio,
 Celeste or Deadlock.

@@ -1,6 +1,7 @@
 +++
 title = "phosphorescent.dev"
 date = 2025-03-27
+updated = 2025-06-06
 
 [taxonomies]
 tags=["tailwind", "zola", "tera"]
@@ -43,7 +44,7 @@ contents](https://www.getzola.org/documentation/content/table-of-contents/).
 something).
 - [x] Make styling consistent across the entire website (currently I am just doing
 whatever feels good and works).
-- [ ] Mobile.
-- [ ] Populate the website with some real content.
+- [x] Mobile.
+- [x] Populate the website with some real content.
 - [x] Add dates to pages listed in taxonomies.
 - [ ] Make the `taxonomy_list.html` template prettier. 
