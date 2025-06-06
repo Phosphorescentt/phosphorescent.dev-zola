@@ -9,7 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+
     <style type="text/tailwindcss">
       html {
         @apply bg-neutral-200 text-neutral-950 text-4xl w-fit lg:text-base;
@@ -57,6 +60,12 @@
       li input {
         @apply w-3 h-3 mr-1 -ml-5;
       }
+      code {
+        @apply bg-neutral-300 rounded-sm p-1;
+      }
+      .hljs {
+        @apply bg-neutral-300 overflow-x-auto w-full;
+      }
     </style>
 
     <link rel="stylesheet" href="/style.css" />
@@ -64,7 +73,7 @@
 
   <body>
     <section class="section flex justify-center">
-      <div class="m-5">
+      <div class="m-5 w-screen">
         <h1 class="font-bold">
           <a
             href="/"
@@ -79,4 +88,6 @@
       </div>
     </section>
   </body>
+
+  <script>hljs.highlightAll();</script>
 </html>
