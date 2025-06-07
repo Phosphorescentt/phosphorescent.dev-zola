@@ -1,7 +1,7 @@
 +++
 title = "Automatically rename Zellij tabs with Nushell"
 date = 2025-06-07
-edited = 2025-06-07
+updated = 2025-06-07
 
 [taxonomies]
 tags=["zellij", "nushell", "ricing"]
