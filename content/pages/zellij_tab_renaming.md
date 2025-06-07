@@ -1,9 +1,10 @@
 +++
-title = "Zellij automatic tab renaming with Nushell"
+title = "Automatically rename Zellij tabs with Nushell"
 date = 2025-06-07
+edited = 2025-06-07
 
 [taxonomies]
-tags=["zelilj", "nushell", "ricing"]
+tags=["zellij", "nushell", "ricing"]
 categories=["blog"] 
 +++
 
@@ -14,7 +15,7 @@ up automatic tab renaming for Zellij with Nushell and it was remarkably easy.
 [Zellij](https://zellij.dev/) is a modern alternative to tmux/screen and I'm a real
 sucker for something modern and written in rust. Out of the box, Zellij has a lot of
 really cool functionality, but I'm a tmux girlie. My Zellij config is very minimal to
-make al lthe keybinds similar to tmux, the only thing that's missing is the automatic
+make all the keybinds similar to tmux, the only thing that's missing is the automatic
 tab renaming.
 
 A quick search about automatically renaming tabs in Zellij led me to [this
