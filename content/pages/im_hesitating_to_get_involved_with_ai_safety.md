@@ -1,5 +1,5 @@
 +++
-title = "Why I Hesitate to Get Involved With AI Safety"
+title = "I'm Hesitating to Get Involved With AI Safety"
 date = 2025-06-16
 
 [taxonomies]
