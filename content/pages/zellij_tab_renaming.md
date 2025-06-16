@@ -22,7 +22,7 @@ A quick search about automatically renaming tabs in Zellij led me to [this
 article](https://haseebmajid.dev/posts/2024-07-26-how-i-configured-zellij-status-bar/).
 The author of this post shows two functions they have added to their fish setup. In
 short, this setup uses Zellij's CLI utility to update the title of the tab using fish's
-`fish_preexec` and `fish_postexec` hooks. In particulary it's issuing a `zellij action
+`fish_preexec` and `fish_postexec` hooks. In particular it's issuing a `zellij action
 rename-tab <tabname>`.
 
 Nushell also has similar functionality to fish in it's
