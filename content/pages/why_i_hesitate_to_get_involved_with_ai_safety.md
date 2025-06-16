@@ -13,7 +13,14 @@ Last week I had an extremely thought provoking conversation with a careers advis
 in particular he pressed me quite hard on why I'm hesitant to get into the AI safety
 space. I didn't have a great answer in the call and I can tell that I have a lot of
 complex feelings on the topic that I need a solid way of expressing. This article is
-written to give myself an opportunity to consolidate and express my feelings.
+written to give myself an opportunity to consolidate and express my feelings. 
+
+In this article I will attempt to avoid talking about things that I haven't given a lot
+of thought, because positions that are not well thought out yet are not worth
+presenting. I also acknowledge that a lot of the arguments below are based on how I
+*feel* right now as opposed to cold hard facts about the state of the world. Again this
+is because I am attempting to convey *why* I am hesitant, and having feelings is an
+occupational hazard of being human.
 
 {{ toc() }}
 
