@@ -159,7 +159,7 @@ problems.
 
 In summary: I haven't decided either way. I'm hopeful that in having written this I have
 thoughts that are easier to communicate with my peers and, as such, rebuttals can be
-more accruately offered.
+more accurately offered.
 
 <!-- # Acknowledgements -->
 <!---->

@@ -35,13 +35,15 @@ the most sense for me and my use case so having someone else decide for me seems
 - [x] Find out if I can specify a different template on a per page basis. This would let
 me use taxonomies instead of folders, but i want to be able to have diff formatting per
 term in a `category` taxonomy.
-- [ ] Find a nice way to add in a [table of
+- [x] Find a nice way to add in a [table of
 contents](https://www.getzola.org/documentation/content/table-of-contents/).
 - [ ] Make the tags on the post page look nicer.
-- [ ] Sort links on home page by relevant part from section.
+- [ ] Sort links on home page by relevant attribute from section.
 - [ ] Limit links on home page to highest 10-20.
-- [ ] Make it clear when one link on the home page ends and another one begins (cards or
+- [x] Make it clear when one link on the home page ends and another one begins (cards or
 something).
+  - This has been done by adding dates. I'm not the biggest fan of this solution, but
+  it's better than nothing.
 - [x] Make styling consistent across the entire website (currently I am just doing
 whatever feels good and works).
 - [x] Mobile.
