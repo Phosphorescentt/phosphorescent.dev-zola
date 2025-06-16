@@ -153,3 +153,11 @@ problems.
 In summary: I haven't decided either way. I'm hopeful that in having written this I have
 thoughts that are easier to communicate with my peers and, as such, rebuttals can be
 more accruately offered.
+
+<!-- # Acknowledgements -->
+<!---->
+<!-- Thanks to: -->
+<!-- - Sudhanshu Kasewa from 80,000 hours for the conversation that encouraged me to write -->
+<!-- this post. -->
+<!-- - Alex Petropoulos for proofreading and editing. -->
+<!-- - Kat Emery for proofreading and her unending support of all that I do. -->
