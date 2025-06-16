@@ -1,7 +1,6 @@
 +++
 title = "Why I Hesitate to Get Involved With AI Safety"
 date = 2025-06-16
-draft = true
 
 [taxonomies]
 tags=["ai", "llms", "vibe-coding"]
@@ -18,8 +17,8 @@ written to give myself an opportunity to consolidate and express my feelings.
 In this article I will attempt to avoid talking about things that I haven't given a lot
 of thought, because positions that are not well thought out yet are not worth
 presenting. I also acknowledge that a lot of the arguments below are based on how I
-*feel* right now as opposed to cold hard facts about the state of the world. Again this
-is because I am attempting to convey *why* I am hesitant, and having feelings is an
+*feel* right now as opposed to cold hard facts about the state of the world. Again, this
+is because I am attempting to convey *why* I am hesitant and having feelings is an
 occupational hazard of being human.
 
 {{ toc() }}
@@ -157,14 +156,15 @@ represent a large change in my character from someone who isn't particularly int
 in the technology to someone who interacts with it full time and uses it to solve
 problems.
 
-In summary: I haven't decided either way. I'm hopeful that in having written this I have
-thoughts that are easier to communicate with my peers and, as such, rebuttals can be
-more accurately offered.
+In summary, this essay was a good exercise in getting my thoughts out of my brain and
+into some intelligible ideas. This has cleared up a lot of the way that I feel and has
+left me clearer in my position. This position is that lot of the reasons I hesitate are
+purely inside my head and something that I have to get over in my own time by doing
+lots of reading.
 
-<!-- # Acknowledgements -->
-<!---->
-<!-- Thanks to: -->
-<!-- - Sudhanshu Kasewa from 80,000 hours for the conversation that encouraged me to write -->
-<!-- this post. -->
-<!-- - Alex Petropoulos for proofreading and editing. -->
-<!-- - Kat Emery for proofreading and her unending support of all that I do. -->
+# Acknowledgements
+
+Thanks to:
+- Alex Petropoulos for connecting me with 80,000 hours and encouraging me to think
+more about AI safety as an option.
+- Kat Emery for proofreading and her unending support of all that I do.
