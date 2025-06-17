@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - tera</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/tera/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-16T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/tera/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Table of Contents Shortcode for Zola</title>
+        <published>2025-06-16T00:00:00+00:00</published>
+        <updated>2025-06-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/zola-table-of-contents-shortcode/"/>
+        <id>https://phosphorescent.dev/pages/zola-table-of-contents-shortcode/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/zola-table-of-contents-shortcode/">&lt;p&gt;To build this website, I&#x27;m using a tool called &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;. For my
+longer posts, I&#x27;d like to have a table of contents somewhere on the page for easier
+navigation, but I don&#x27;t want it on every page. This could&#x27;ve been achieved by making a
+separate template for the page with a table of contents, but I wanted something a bit
+more flexible that lets me insert the table of contents wherever I want. Apparently
+there&#x27;s not an easy way to do this, so I&#x27;ve come up with a bit of a hack based on an &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&#x2F;issues&#x2F;584&quot;&gt;old
+GitHub issue&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Zola has functionality called
+&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;&quot;&gt;shortcodes&lt;&#x2F;a&gt; which lets you
+call functions to insert text into your markdown before rendering the markdown into into
+HTML. Unfortunately, because shortcodes are expanded &lt;em&gt;before&lt;&#x2F;em&gt; the markdown is parsed,
+they don&#x27;t have access to the attributes of the page. These attributes are exposed at
+the template level, but not the shortcode level. So we have to do some tomfoolery.&lt;&#x2F;p&gt;
+&lt;p&gt;If we create a shortcode called &lt;code&gt;toc&lt;&#x2F;code&gt; that accepts no arguments and returns a constant
+string &lt;code&gt;&amp;lt;!-- toc --&amp;gt;&lt;&#x2F;code&gt;, we can then replace that string with a call to a &lt;a href=&quot;https:&#x2F;&#x2F;keats.github.io&#x2F;tera&#x2F;docs&#x2F;#macros&quot;&gt;Tera
+macro&lt;&#x2F;a&gt; that actually generates the HTML for
+the table of contents. A specific implementation of method can be found in &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Phosphorescentt&#x2F;phosphorescent.dev-zola&#x2F;commit&#x2F;5fb8df16284563c74ee17c43118658f954e686a4#diff-ec96e0fc2f34ad383e10ee3af3c78f2ec64cdf16eba5352cc184f01802f950c9&quot;&gt;this
+commit&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Now when we write some markdown, we can insert &lt;code&gt;toc()&lt;&#x2F;code&gt; surrouneded by double curly
+brackets wherever we want, and we will get a table of contents rendered correctly.
+Below is an example of what the table of contents for this website will look like.&lt;&#x2F;p&gt;
+&lt;!-- toc --&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#header-1&quot; aria-label=&quot;Anchor link for: header-1&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;subheader-1&quot;&gt;Subheader 1&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-1&quot; aria-label=&quot;Anchor link for: subheader-1&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;subheader-2&quot;&gt;Subheader 2&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-2&quot; aria-label=&quot;Anchor link for: subheader-2&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;subheader-3&quot;&gt;Subheader 3&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-3&quot; aria-label=&quot;Anchor link for: subheader-3&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;header-2&quot;&gt;Header 2&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#header-2&quot; aria-label=&quot;Anchor link for: header-2&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;subheader-4&quot;&gt;Subheader 4&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-4&quot; aria-label=&quot;Anchor link for: subheader-4&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>phosphorescent.dev</title>
+        <published>2025-03-27T00:00:00+00:00</published>
+        <updated>2025-06-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/phosphorescent-dev/"/>
+        <id>https://phosphorescent.dev/pages/phosphorescent-dev/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/phosphorescent-dev/">&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;This website is the first project that I am documenting here. At present, it looks very
+primitive and untidy which is because it is. I haven&#x27;t touched any front end in a long
+time as I have mostly been data engineering with Python. So why not do a little side
+project to show off my work and develop some new skills?&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;tech-stack&quot;&gt;Tech Stack&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#tech-stack&quot; aria-label=&quot;Anchor link for: tech-stack&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;This site is generated from a set of markdown documents and
+&lt;a href=&quot;https:&#x2F;&#x2F;keats.github.io&#x2F;tera&quot;&gt;Tera&lt;&#x2F;a&gt; templates using &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.
+The styling is mostly done with &lt;a href=&quot;https:&#x2F;&#x2F;tailwindcss.com&#x2F;&quot;&gt;Tailwind&lt;&#x2F;a&gt; as I&#x27;ve heard good
+things about it from colleagues &amp;amp; peers. My final verdict on it remains to be seen, but
+my first impressions are good. I haven&#x27;t quite figured out where I want to host this
+site yet, but the easiest place is probably GitHub pages.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;philosophy&quot;&gt;Philosophy&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#philosophy&quot; aria-label=&quot;Anchor link for: philosophy&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I picked something simple and rolled my own theme for Zola so that I don&#x27;t get tied into
+some specific way of thinking. I want to be able to share stuff in whatever way makes
+the most sense for me and my use case so having someone else decide for me seems wrong.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;future-improvements&quot;&gt;Future Improvements&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#future-improvements&quot; aria-label=&quot;Anchor link for: future-improvements&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Find out if I can specify a different template on a per page basis. This would let
+me use taxonomies instead of folders, but i want to be able to have diff formatting per
+term in a &lt;code&gt;category&lt;&#x2F;code&gt; taxonomy.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Find a nice way to add in a &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;table-of-contents&#x2F;&quot;&gt;table of
+contents&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make the tags on the post page look nicer.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Sort links on home page by relevant attribute from section.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Limit links on home page to highest 10-20.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Make it clear when one link on the home page ends and another one begins (cards or
+something).
+&lt;ul&gt;
+&lt;li&gt;This has been done by adding dates. I&#x27;m not the biggest fan of this solution, but
+it&#x27;s better than nothing.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Make styling consistent across the entire website (currently I am just doing
+whatever feels good and works).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Mobile.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Populate the website with some real content.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Add dates to pages listed in taxonomies.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make the &lt;code&gt;taxonomy_list.html&lt;&#x2F;code&gt; template prettier.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
