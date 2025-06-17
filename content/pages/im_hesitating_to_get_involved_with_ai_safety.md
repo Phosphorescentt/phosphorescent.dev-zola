@@ -4,7 +4,7 @@ date = 2025-06-16
 
 [taxonomies]
 tags=["ai", "llms", "vibe-coding"]
-categories=["essays"] 
+categories=["blog"] 
 +++
 
 Last week I had an extremely thought provoking conversation with a careers adviser from
@@ -99,7 +99,7 @@ feel like I deserve the right to protect that part of my job? Also yes.
 
 ## Social safety vs. capabilities safety 
 
-This is probably a longer essay for a different time, but it seems
+This is probably a longer post for a different time, but it seems
 likely to me that we are going to have more issues related to misuse of AI by existing
 social systems and power structures than we are likely to have issues from capabilities.
 
@@ -156,7 +156,7 @@ represent a large change in my character from someone who isn't particularly int
 in the technology to someone who interacts with it full time and uses it to solve
 problems.
 
-In summary, this essay was a good exercise in getting my thoughts out of my brain and
+In summary, this post was a good exercise in getting my thoughts out of my brain and
 into some intelligible ideas. This has cleared up a lot of the way that I feel and has
 left me clearer in my position. This position is that lot of the reasons I hesitate are
 purely inside my head and something that I have to get over in my own time by doing
