@@ -1,5 +1,5 @@
 +++
-title = "I'm Hesitating to Get Involved With AI Safety"
+title = "I'm Hesitant to Get Involved With AI Safety"
 date = 2025-06-16
 updated = 2025-06-24
 
