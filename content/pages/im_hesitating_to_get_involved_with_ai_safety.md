@@ -1,6 +1,7 @@
 +++
 title = "I'm Hesitating to Get Involved With AI Safety"
 date = 2025-06-16
+updated = 2025-06-24
 
 [taxonomies]
 tags=["ai", "llms", "vibe-coding"]
@@ -126,7 +127,7 @@ systems if they're going to be deployed everywhere.
 ## There are very few people working on safety
 
 [80,000 hours estimate that as of 2022 there were ~400 people working on AI
-safety globally](https://archive.is/3Xumj). That is a disgustingly small number
+safety globally](https://archive.is/3Xumj#neglectedness). That is a disgustingly small number
 given how huge some of the impacts are predicted to be. Even if the predicted impacts
 are off by several orders of magnitude, it seems silly that we're spending ~1,000 times
 less on safety than we are on capabilities.
