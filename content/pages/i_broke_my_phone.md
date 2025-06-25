@@ -14,7 +14,7 @@ right half of the screen. The lines are brighter than the rest of the screen.](/
 
 I dropped it like 75cm (2.5ft) and this is what happened. I'm
 pretty mad about it. I even had a [Mous phone
-case](https://www.youtube.com/results?search_query=mouse+phone+case+ads) on it!
+case](https://www.youtube.com/watch?v=cfgHnSflZ04) on it!
 
 Fortunately, the damage to the screen is purely cosmetic; the touch input still works as
 you'd expect. Unfortunately the two white bars are exactly where lots of apps decide to
