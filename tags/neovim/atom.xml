@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - neovim</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/neovim/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-05-28T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/neovim/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Vim :g command</title>
+        <published>2025-05-28T00:00:00+00:00</published>
+        <updated>2025-05-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/vim-g-command/"/>
+        <id>https://phosphorescent.dev/pages/vim-g-command/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/vim-g-command/">&lt;p&gt;I have been using some variation of Vim on and off since ~2012. And in that time I have
+learned staggeringly little about the editor. In comes &lt;a href=&quot;https:&#x2F;&#x2F;www.vimgolf.com&#x2F;&quot;&gt;Vim
+Golf&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Long story short, today I learned about the &lt;code&gt;:g&lt;&#x2F;code&gt; command. &lt;code&gt;g&lt;&#x2F;code&gt; is short for global and
+lets you run an &lt;code&gt;Ex&lt;&#x2F;code&gt; command across all lines matching some pattern in your current
+buffer. This can be used to quickly do things like:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete all blank lines: &lt;code&gt;:g&#x2F;^\s*&amp;amp;&#x2F;d&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Delete all lines containing only Python comments: &lt;code&gt;:g&#x2F;^\s*# *&#x2F;d&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Copy all lines matching the pattern to register &lt;code&gt;a&lt;&#x2F;code&gt;: &lt;code&gt;qaq:g&#x2F;pattern&#x2F;y A&lt;&#x2F;code&gt; (where &lt;code&gt;qaq&lt;&#x2F;code&gt;
+starts recording a macro into register &lt;code&gt;a&lt;&#x2F;code&gt; and immediately exits, leaving &lt;code&gt;a&lt;&#x2F;code&gt; empty and
+&lt;code&gt;y A&lt;&#x2F;code&gt; appends to register &lt;code&gt;a&lt;&#x2F;code&gt; each line matched)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
