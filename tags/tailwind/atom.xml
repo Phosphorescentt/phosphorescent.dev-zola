@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - tailwind</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/tailwind/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-06T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/tailwind/atom.xml</id>
+    <entry xml:lang="en">
+        <title>phosphorescent.dev</title>
+        <published>2025-03-27T00:00:00+00:00</published>
+        <updated>2025-06-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/phosphorescent-dev/"/>
+        <id>https://phosphorescent.dev/pages/phosphorescent-dev/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/phosphorescent-dev/">&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;This website is the first project that I am documenting here. At present, it looks very
+primitive and untidy which is because it is. I haven&#x27;t touched any front end in a long
+time as I have mostly been data engineering with Python. So why not do a little side
+project to show off my work and develop some new skills?&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;tech-stack&quot;&gt;Tech Stack&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#tech-stack&quot; aria-label=&quot;Anchor link for: tech-stack&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;This site is generated from a set of markdown documents and
+&lt;a href=&quot;https:&#x2F;&#x2F;keats.github.io&#x2F;tera&quot;&gt;Tera&lt;&#x2F;a&gt; templates using &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.
+The styling is mostly done with &lt;a href=&quot;https:&#x2F;&#x2F;tailwindcss.com&#x2F;&quot;&gt;Tailwind&lt;&#x2F;a&gt; as I&#x27;ve heard good
+things about it from colleagues &amp;amp; peers. My final verdict on it remains to be seen, but
+my first impressions are good. I haven&#x27;t quite figured out where I want to host this
+site yet, but the easiest place is probably GitHub pages.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;philosophy&quot;&gt;Philosophy&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#philosophy&quot; aria-label=&quot;Anchor link for: philosophy&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I picked something simple and rolled my own theme for Zola so that I don&#x27;t get tied into
+some specific way of thinking. I want to be able to share stuff in whatever way makes
+the most sense for me and my use case so having someone else decide for me seems wrong.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;future-improvements&quot;&gt;Future Improvements&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#future-improvements&quot; aria-label=&quot;Anchor link for: future-improvements&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Find out if I can specify a different template on a per page basis. This would let
+me use taxonomies instead of folders, but i want to be able to have diff formatting per
+term in a &lt;code&gt;category&lt;&#x2F;code&gt; taxonomy.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Find a nice way to add in a &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;table-of-contents&#x2F;&quot;&gt;table of
+contents&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make the tags on the post page look nicer.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Sort links on home page by relevant attribute from section.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Limit links on home page to highest 10-20.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Make it clear when one link on the home page ends and another one begins (cards or
+something).
+&lt;ul&gt;
+&lt;li&gt;This has been done by adding dates. I&#x27;m not the biggest fan of this solution, but
+it&#x27;s better than nothing.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Make styling consistent across the entire website (currently I am just doing
+whatever feels good and works).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Mobile.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Populate the website with some real content.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Add dates to pages listed in taxonomies.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make the &lt;code&gt;taxonomy_list.html&lt;&#x2F;code&gt; template prettier.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
