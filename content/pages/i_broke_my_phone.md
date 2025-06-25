@@ -1,6 +1,6 @@
 +++
 title = "I Broke My Phone"
-date = 2025-06-19
+date = 2025-06-25
 
 [taxonomies]
 tags=["productivity", "mental-health"]
