@@ -65,6 +65,12 @@
       hr {
         @apply border-neutral-500 my-2
       }
+      p:has(img) {
+        @apply block text-center
+      }
+      img {
+        @apply w-3/4 m-auto border-4 rounded-xs p-1 border-pink-900
+      }
     </style>
 
     <link rel="stylesheet" href="/style.css" />
@@ -87,6 +93,4 @@
       </div>
     </section>
   </body>
-
-  <script>hljs.highlightAll();</script>
 </html>
