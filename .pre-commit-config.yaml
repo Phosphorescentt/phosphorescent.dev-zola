@@ -1,0 +1,5 @@
+repos:
+- repo: https://github.com/nuket/Eigendoxx
+  rev: 19a1244a113f69abaac78e860650c11c33e6ab19
+  hooks:
+  - id: gps-metadata-check

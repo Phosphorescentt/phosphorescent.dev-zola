@@ -10,7 +10,7 @@ categories=["blog"]
 ...and I don't intend on fixing it. Here she is in all her glory:
 
 ![An iPhone 13 with a broken screen. There are two thick white lines in the
-right half of the screen. The lines are brighter than the rest of the screen.](/images/broken_phone.png)
+right half of the screen. The lines are brighter than the rest of the screen.](/images/broken_phone.jpg)
 
 I dropped it like 75cm (2.5ft) and this is what happened. I'm
 pretty mad about it. I even had a [Mous phone
