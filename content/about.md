@@ -5,7 +5,7 @@ date = 2025-04-06
 updated = 2025-04-06
 +++
 
-Heya! I'm Phos! I'm a 24 year old, Bristol-based software engineer with a background in
+Heya! I'm Freya! I'm a 24 year old, Bristol-based software engineer with a background in
 mathematics. I mostly write backend-data-style Python at the moment, but am trying to
 expand my horizons into systems programming via Rust. I spend more time than I care to
 admit lurking on Hacker News and [lobste.rs](https://lobste.rs/) with the hope that I
