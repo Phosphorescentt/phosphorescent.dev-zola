@@ -1,0 +1,14 @@
+{% import "macros.html" as macros %}
+{% extends "base.html" %}
+
+{% block content %}
+{{ page.content | safe }}
+~ {{ page.extra.quote_author }}
+<p>
+  {% if page.taxonomies.tags %}
+    {% for tag in page.taxonomies.tags %}
+      <a href="/tags/{{tag}}">{{tag}}</a>
+    {% endfor %}
+  {% endif %}
+</p>
+{% endblock content %}
