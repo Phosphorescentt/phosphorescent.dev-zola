@@ -4,9 +4,8 @@
 
 <h1>{{taxonomy.name}}</h1>
 
-<ul>
 {% for term in terms %}
-  <li><a href={{get_taxonomy_url(kind=taxonomy.name, name=term.name)}}>{{term.name}}</a></li>
+	<a href={{get_taxonomy_url(kind=taxonomy.name, name=term.name)}}>{{term.name}}</a>
 {% endfor %}
-</ul>
+
 {% endblock content %}

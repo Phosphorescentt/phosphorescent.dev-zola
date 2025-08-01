@@ -10,6 +10,7 @@ categories=["quotes"]
 
 [extra]
 quote_author="William Gibson"
+title="Mona Lisa Overdrive"
 +++
 > This was nothing like Tokyo, where the past, all that remained of it, was nurtured with
 a nervous care. History there had become a quantity, a rare thing, parcelled out by

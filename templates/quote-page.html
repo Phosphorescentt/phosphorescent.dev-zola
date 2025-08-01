@@ -3,7 +3,7 @@
 
 {% block content %}
 {{ page.content | safe }}
-~ {{ page.extra.quote_author }}
+~ {{ page.extra.quote_author }}, {{ page.extra.title }}
 <p>
   {% if page.taxonomies.tags %}
     {% for tag in page.taxonomies.tags %}
