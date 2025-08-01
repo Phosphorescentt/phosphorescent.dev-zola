@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - claude</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/claude/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-05T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/claude/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Conversation on Claude Code</title>
+        <published>2025-06-05T00:00:00+00:00</published>
+        <updated>2025-06-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/a-conversation-on-claude-code/"/>
+        <id>https://phosphorescent.dev/pages/a-conversation-on-claude-code/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/a-conversation-on-claude-code/">&lt;p&gt;Probably a bit late to the conversation on this one as I&#x27;m currently between jobs and so
+I don&#x27;t have 40 minute gaps whilst tests run to read Hacker News, but Anthropic have
+just released a video discussing &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Yf_1w00qIKc&quot;&gt;Claude
+Code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Honestly this is a cool piece of tooling and this is the direction that I&#x27;d like to see
+LLM&#x2F;AI stuff continue to move. Having something that keeps out of your way until you
+want it is great, as opposed to things like Microsoft forcing Copilot down every GitHub
+user&#x27;s throat. A CLI tool that I can use only when I want it is great! It also sets the
+incentive up to build something that&#x27;s actually useful. If Claude Code isn&#x27;t useful I
+just wont use it and it won&#x27;t get in my way. In other words, I am glad that we have
+moved away from autocompletes.&lt;&#x2F;p&gt;
+&lt;p&gt;I haven&#x27;t had the chance to give Claude Code a proper once over, but already I can see a
+few issues.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cost&quot;&gt;Cost&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#cost&quot; aria-label=&quot;Anchor link for: cost&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;In the video, Boris is saying that you can probably get away with 5$ for the weekend,
+but if you want to use Claude Code routinely then you&#x27;re looking at at least 50-100$ per
+month. 100$&#x2F;month is enough money that it&#x27;s inacessible to most people and I think this
+is probably going to exacerbate issues that we&#x27;re already having with inequality.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;security&quot;&gt;Security&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#security&quot; aria-label=&quot;Anchor link for: security&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Maybe I just have anxiety, but letting Claude run wild on my personal machine seems
+crazy. Does it do any kind of sandboxing or anything like that? It&#x27;s unclear to me, but
+at face value it doesn&#x27;t seem like there&#x27;s anything stopping Claude from hitting me with
+an &lt;code&gt;rm -rf &#x2F;&lt;&#x2F;code&gt;. I don&#x27;t think it&#x27;s going to exfiltrate my secrets anywhere, but I just
+don&#x27;t trust it not to do silly things to my system that it ought not to. In fairness,
+seems like they have &lt;a href=&quot;https:&#x2F;&#x2F;docs.anthropic.com&#x2F;en&#x2F;docs&#x2F;claude-code&#x2F;security&quot;&gt;quite granular
+controls&lt;&#x2F;a&gt; over what Claude can
+be allowed to do in your system, so maybe I &lt;em&gt;do&lt;&#x2F;em&gt; have anxiety.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;remote-only&quot;&gt;Remote only&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#remote-only&quot; aria-label=&quot;Anchor link for: remote-only&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Of course I wouldn&#x27;t necessarily expect this out the gate from Anthropic as they stand
+to make money off Claude Code, but I struggle to be super happy about tools whose only
+backend is a paid service with no option of moving over to self hosting something. It&#x27;s
+not that I disagree with Anthropic&#x27;s model, it&#x27;s just a shame to build what looks like
+such a good UI and give it only a proprietary backend. I&#x27;m sure it&#x27;s only a matter of
+time before there&#x27;s a really good open source alternative anyway.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
