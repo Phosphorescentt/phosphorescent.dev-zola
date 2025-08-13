@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - neovim</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/neovim/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-13T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/neovim/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Learn to RTFM!</title>
+        <published>2025-08-13T00:00:00+00:00</published>
+        <updated>2025-08-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/learn-to-rtfm/"/>
+        <id>https://phosphorescent.dev/pages/learn-to-rtfm/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/learn-to-rtfm/">&lt;p&gt;I spent a bunch of time unemployed this year (thanks redundancy). So I redid my
+dotfiles. Goodbye AstroNvim, hello &lt;code&gt;init.lua&lt;&#x2F;code&gt;. I had two motivations for doing this:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;I didn&#x27;t understand what AstroNvim was doing to implement all this functionality, and
+when I wanted to add new things I always found it confusing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@sylvanfranklin&#x2F;videos&quot;&gt;Vimothée Chalamet&lt;&#x2F;a&gt; reignited my love
+for Vim and it&#x27;s myriad of well thought out and modular features.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Now I am running nightly Neovim, using the inbuilt package manager for a select few
+plugins and I have a single &lt;code&gt;init.lua&lt;&#x2F;code&gt; which I constructed entirely myself. And the
+thing that enabled me was &lt;code&gt;:h&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;:h&lt;&#x2F;code&gt; is (neo)vim&#x27;s inbuilt help command. Typing &lt;code&gt;:h i&lt;&#x2F;code&gt; brings up some &lt;em&gt;very&lt;&#x2F;em&gt; extensive
+documentation about what the &lt;code&gt;i&lt;&#x2F;code&gt; character does, and it puts it in the context of other
+similar commands. Obviously I knew about &lt;code&gt;:h&lt;&#x2F;code&gt; before, but I never really understood how
+to parse the information that was on my screen.&lt;&#x2F;p&gt;
+&lt;p&gt;Having now written a little bit of lua and done some fiddling with a full config myself,
+these &lt;code&gt;:h&lt;&#x2F;code&gt; pages are a goldmine. The combination of having &lt;em&gt;extremely&lt;&#x2F;em&gt; detailed docs for
+a specific command, surrounded by other similar commands is incredible. Want to know how
+to open a terminal buffer? &lt;code&gt;:h terminal&lt;&#x2F;code&gt;. Read a few sentences and scroll a bit and now
+you know how to open a terminal buffer and what the keybinds are to perform actions in
+it. All of that, for free, built into your editor, and it&#x27;s completely offline.&lt;&#x2F;p&gt;
+&lt;p&gt;I now feel much more confident with configuring my editor and I rarely feel like I have
+to consult a search engine to get my answers. I wish I&#x27;d invested in this skill sooner,
+I could&#x27;ve saved myself so much time.&lt;&#x2F;p&gt;
+&lt;p&gt;You should learn to read the manual for your favourite tools too.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Vim :g command</title>
+        <published>2025-05-28T00:00:00+00:00</published>
+        <updated>2025-05-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/vim-g-command/"/>
+        <id>https://phosphorescent.dev/pages/vim-g-command/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/vim-g-command/">&lt;p&gt;I have been using some variation of Vim on and off since ~2012. And in that time I have
+learned staggeringly little about the editor. In comes &lt;a href=&quot;https:&#x2F;&#x2F;www.vimgolf.com&#x2F;&quot;&gt;Vim
+Golf&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Long story short, today I learned about the &lt;code&gt;:g&lt;&#x2F;code&gt; command. &lt;code&gt;g&lt;&#x2F;code&gt; is short for global and
+lets you run an &lt;code&gt;Ex&lt;&#x2F;code&gt; command across all lines matching some pattern in your current
+buffer. This can be used to quickly do things like:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete all blank lines: &lt;code&gt;:g&#x2F;^\s*&amp;amp;&#x2F;d&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Delete all lines containing only Python comments: &lt;code&gt;:g&#x2F;^\s*# *&#x2F;d&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Copy all lines matching the pattern to register &lt;code&gt;a&lt;&#x2F;code&gt;: &lt;code&gt;qaq:g&#x2F;pattern&#x2F;y A&lt;&#x2F;code&gt; (where &lt;code&gt;qaq&lt;&#x2F;code&gt;
+starts recording a macro into register &lt;code&gt;a&lt;&#x2F;code&gt; and immediately exits, leaving &lt;code&gt;a&lt;&#x2F;code&gt; empty and
+&lt;code&gt;y A&lt;&#x2F;code&gt; appends to register &lt;code&gt;a&lt;&#x2F;code&gt; each line matched)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

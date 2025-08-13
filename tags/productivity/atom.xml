@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - productivity</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/productivity/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-13T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/productivity/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Learn to RTFM!</title>
+        <published>2025-08-13T00:00:00+00:00</published>
+        <updated>2025-08-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/learn-to-rtfm/"/>
+        <id>https://phosphorescent.dev/pages/learn-to-rtfm/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/learn-to-rtfm/">&lt;p&gt;I spent a bunch of time unemployed this year (thanks redundancy). So I redid my
+dotfiles. Goodbye AstroNvim, hello &lt;code&gt;init.lua&lt;&#x2F;code&gt;. I had two motivations for doing this:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;I didn&#x27;t understand what AstroNvim was doing to implement all this functionality, and
+when I wanted to add new things I always found it confusing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@sylvanfranklin&#x2F;videos&quot;&gt;Vimothée Chalamet&lt;&#x2F;a&gt; reignited my love
+for Vim and it&#x27;s myriad of well thought out and modular features.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Now I am running nightly Neovim, using the inbuilt package manager for a select few
+plugins and I have a single &lt;code&gt;init.lua&lt;&#x2F;code&gt; which I constructed entirely myself. And the
+thing that enabled me was &lt;code&gt;:h&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;:h&lt;&#x2F;code&gt; is (neo)vim&#x27;s inbuilt help command. Typing &lt;code&gt;:h i&lt;&#x2F;code&gt; brings up some &lt;em&gt;very&lt;&#x2F;em&gt; extensive
+documentation about what the &lt;code&gt;i&lt;&#x2F;code&gt; character does, and it puts it in the context of other
+similar commands. Obviously I knew about &lt;code&gt;:h&lt;&#x2F;code&gt; before, but I never really understood how
+to parse the information that was on my screen.&lt;&#x2F;p&gt;
+&lt;p&gt;Having now written a little bit of lua and done some fiddling with a full config myself,
+these &lt;code&gt;:h&lt;&#x2F;code&gt; pages are a goldmine. The combination of having &lt;em&gt;extremely&lt;&#x2F;em&gt; detailed docs for
+a specific command, surrounded by other similar commands is incredible. Want to know how
+to open a terminal buffer? &lt;code&gt;:h terminal&lt;&#x2F;code&gt;. Read a few sentences and scroll a bit and now
+you know how to open a terminal buffer and what the keybinds are to perform actions in
+it. All of that, for free, built into your editor, and it&#x27;s completely offline.&lt;&#x2F;p&gt;
+&lt;p&gt;I now feel much more confident with configuring my editor and I rarely feel like I have
+to consult a search engine to get my answers. I wish I&#x27;d invested in this skill sooner,
+I could&#x27;ve saved myself so much time.&lt;&#x2F;p&gt;
+&lt;p&gt;You should learn to read the manual for your favourite tools too.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A month with a broken phone</title>
+        <published>2025-07-29T00:00:00+00:00</published>
+        <updated>2025-07-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/a-month-with-a-broken-phone/"/>
+        <id>https://phosphorescent.dev/pages/a-month-with-a-broken-phone/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/a-month-with-a-broken-phone/">&lt;p&gt;It&#x27;s been about a month since &lt;a href=&quot;https:&#x2F;&#x2F;phosphorescent.dev&#x2F;pages&#x2F;i-broke-my-phone&#x2F;&quot;&gt;I broke my phone&lt;&#x2F;a&gt;. It&#x27;s been
+quite a good month honestly. I don&#x27;t feel tied to my phone at all times and it&#x27;s
+definitely become more of a tool for me than something I feel compelled to use.
+Unfortunately, iOS screen time is terrible so the UI doesn&#x27;t actually show me any data
+before 2025-06-30. But my current week average usage is consistently below 3h&#x2F;day. A lot
+of this is also comprised of Netflix for background noise or Spotify, which, for
+whatever reason, still counts up screen time even when the phone is locked. All this in
+mind, it &lt;em&gt;feels&lt;&#x2F;em&gt; like a big improvement, I just wish I had data to back it up.&lt;&#x2F;p&gt;
+&lt;p&gt;In this month I have had a lot more free time and it&#x27;s been great. I&#x27;d be lying if I
+said I spent it all well. There was more Shapez 2, ETS2 &amp;amp; Deadlock than I&#x27;d have liked,
+but it&#x27;s much easier to play a single game of Deadlock and then decide to do something
+useful than it is to get myself off Reddit:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Deadlock games come in discrete units and they take up ~50 minutes maximum so it&#x27;s harder to lose time&lt;&#x2F;li&gt;
+&lt;li&gt;Deadlock is way less addictive than basically everything on my phone, so it&#x27;s easier to pull myself away
+from it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Overall I&#x27;d say this is a massive upgrade, because my phone still does what I need it to
+do, without most of the distracting stuff tacked on.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I Broke My Phone</title>
+        <published>2025-06-25T00:00:00+00:00</published>
+        <updated>2025-06-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/i-broke-my-phone/"/>
+        <id>https://phosphorescent.dev/pages/i-broke-my-phone/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/i-broke-my-phone/">&lt;p&gt;...and I don&#x27;t intend on fixing it. Here she is in all her glory:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;broken_phone.jpg&quot; alt=&quot;An iPhone 13 with a broken screen. There are two thick white lines in the right half of the screen. The lines are brighter than the rest of the screen.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I dropped it like 75cm (2.5ft) and this is what happened. I&#x27;m
+pretty mad about it. I even had a &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=cfgHnSflZ04&quot;&gt;Mous phone
+case&lt;&#x2F;a&gt; on it!&lt;&#x2F;p&gt;
+&lt;p&gt;Fortunately, the damage to the screen is purely cosmetic; the touch input still works as
+you&#x27;d expect. Unfortunately the two white bars are exactly where lots of apps decide to
+put useful information. I can get round this by swiping up from the bottom of the screen
+and gently massaging the app into a space that is unobstructed. It&#x27;s just more effort
+than if it weren&#x27;t broken.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;why-i-m-not-going-to-repair-it&quot;&gt;Why I&#x27;m not going to repair it&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#why-i-m-not-going-to-repair-it&quot; aria-label=&quot;Anchor link for: why-i-m-not-going-to-repair-it&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;It&#x27;s still entirely usable for all the things I need to use it for. Online banking,
+emails in a pinch, texting my partner when I&#x27;m at Tesco and I forgot to make a shopping
+list. It&#x27;s still capable of doing all those things, but it&#x27;s &lt;em&gt;&lt;strong&gt;really&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; annoying to
+look at.&lt;&#x2F;p&gt;
+&lt;p&gt;It comes across surprisingly well in the photo; the two white bars are very bright.
+Like, brighter than the max brightness the OS usually allows bright. This alone has made
+my phone so much less appealing to look at. It low-key hurts my eyes even under direct
+sunlight when my pupils are most constricted. Now imagine how it is to look at when
+you&#x27;re on the way to bed. Scrolling through Hacker News whilst I&#x27;m brushing my teeth is
+not something that crosses my mind anymore. And then once I&#x27;ve made it to bed there&#x27;s
+zero chance I&#x27;m looking at my phone again once the lights have been dimmed, because it&#x27;s
+going to flashbang me.&lt;&#x2F;p&gt;
+&lt;p&gt;And better than just helping me fix my sleep, this has also improved my relationship
+with my phone in like 99% of cases. It&#x27;s so frustrating to look at that I&#x27;m just... not
+inclined to pick it up unless I absolutely have to. I have no inclination to pick it up
+and scroll through Instagram whilst I&#x27;m waiting for my M&amp;amp;S Tuscan Style Sausage Penne
+pasta to microwave. I&#x27;d genuinely rather look out the window.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;you-should-break-your-phone-too&quot;&gt;You should break your phone too&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#you-should-break-your-phone-too&quot; aria-label=&quot;Anchor link for: you-should-break-your-phone-too&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I&#x27;d like to say that I will accept no liability or responsibility for any damage that
+you do or don&#x27;t decide to do to your own devices. That being said, this is the most
+liberated from my Psychological Torture Rectangle™ I have felt in a long time.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve been trying for a while to recapture my attention from Zuckerberg &amp;amp; The Tech
+Barons. I&#x27;ve tried all sorts. If you know me, you know I&#x27;m really anal about
+notifications - I literally only get push notifications if my partner texts me. I also
+installed a blocker so that I can&#x27;t get on most of my social media things during the day
+and I only have limited access during the evenings. All of this didn&#x27;t really help.
+Turns out all it takes is significant damage to a £1000 piece of tech!&lt;&#x2F;p&gt;
+&lt;p&gt;I now spend less time whittling away at my mental health by watching the world rot on
+Twitter and I have so much more attention to direct into the stuff that I care about. So
+I&#x27;ve removed a mental health sink and introduced a mental health source all in one go.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s refreshing for my phone to be an intentional part of my day rather than an
+automatic one. I recommend finding a way to make this happen for yourself at all costs.
+Even if it involves breaking your phone.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-13T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Learn to RTFM!</title>
+        <published>2025-08-13T00:00:00+00:00</published>
+        <updated>2025-08-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/learn-to-rtfm/"/>
+        <id>https://phosphorescent.dev/pages/learn-to-rtfm/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/learn-to-rtfm/">&lt;p&gt;I spent a bunch of time unemployed this year (thanks redundancy). So I redid my
+dotfiles. Goodbye AstroNvim, hello &lt;code&gt;init.lua&lt;&#x2F;code&gt;. I had two motivations for doing this:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;I didn&#x27;t understand what AstroNvim was doing to implement all this functionality, and
+when I wanted to add new things I always found it confusing.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@sylvanfranklin&#x2F;videos&quot;&gt;Vimothée Chalamet&lt;&#x2F;a&gt; reignited my love
+for Vim and it&#x27;s myriad of well thought out and modular features.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Now I am running nightly Neovim, using the inbuilt package manager for a select few
+plugins and I have a single &lt;code&gt;init.lua&lt;&#x2F;code&gt; which I constructed entirely myself. And the
+thing that enabled me was &lt;code&gt;:h&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;:h&lt;&#x2F;code&gt; is (neo)vim&#x27;s inbuilt help command. Typing &lt;code&gt;:h i&lt;&#x2F;code&gt; brings up some &lt;em&gt;very&lt;&#x2F;em&gt; extensive
+documentation about what the &lt;code&gt;i&lt;&#x2F;code&gt; character does, and it puts it in the context of other
+similar commands. Obviously I knew about &lt;code&gt;:h&lt;&#x2F;code&gt; before, but I never really understood how
+to parse the information that was on my screen.&lt;&#x2F;p&gt;
+&lt;p&gt;Having now written a little bit of lua and done some fiddling with a full config myself,
+these &lt;code&gt;:h&lt;&#x2F;code&gt; pages are a goldmine. The combination of having &lt;em&gt;extremely&lt;&#x2F;em&gt; detailed docs for
+a specific command, surrounded by other similar commands is incredible. Want to know how
+to open a terminal buffer? &lt;code&gt;:h terminal&lt;&#x2F;code&gt;. Read a few sentences and scroll a bit and now
+you know how to open a terminal buffer and what the keybinds are to perform actions in
+it. All of that, for free, built into your editor, and it&#x27;s completely offline.&lt;&#x2F;p&gt;
+&lt;p&gt;I now feel much more confident with configuring my editor and I rarely feel like I have
+to consult a search engine to get my answers. I wish I&#x27;d invested in this skill sooner,
+I could&#x27;ve saved myself so much time.&lt;&#x2F;p&gt;
+&lt;p&gt;You should learn to read the manual for your favourite tools too.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>This was nothing like Tokyo...</title>
+        <published>2025-07-30T00:00:00+00:00</published>
+        <updated>2025-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/william-gibson-london/"/>
+        <id>https://phosphorescent.dev/pages/william-gibson-london/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/william-gibson-london/">&lt;blockquote&gt;
+&lt;p&gt;This was nothing like Tokyo, where the past, all that remained of it, was nurtured with
+a nervous care. History there had become a quantity, a rare thing, parcelled out by
+government and preserved by law and corporate funding. Here it seemed the very fabric of
+things, as if the city were a single growth of stone and brick, uncounted strata of
+message and meaning, age upon age, generated over the centuries to the dictates of some
+now all but unreadable DNA of commerce and empire.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A month with a broken phone</title>
+        <published>2025-07-29T00:00:00+00:00</published>
+        <updated>2025-07-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/a-month-with-a-broken-phone/"/>
+        <id>https://phosphorescent.dev/pages/a-month-with-a-broken-phone/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/a-month-with-a-broken-phone/">&lt;p&gt;It&#x27;s been about a month since &lt;a href=&quot;https:&#x2F;&#x2F;phosphorescent.dev&#x2F;pages&#x2F;i-broke-my-phone&#x2F;&quot;&gt;I broke my phone&lt;&#x2F;a&gt;. It&#x27;s been
+quite a good month honestly. I don&#x27;t feel tied to my phone at all times and it&#x27;s
+definitely become more of a tool for me than something I feel compelled to use.
+Unfortunately, iOS screen time is terrible so the UI doesn&#x27;t actually show me any data
+before 2025-06-30. But my current week average usage is consistently below 3h&#x2F;day. A lot
+of this is also comprised of Netflix for background noise or Spotify, which, for
+whatever reason, still counts up screen time even when the phone is locked. All this in
+mind, it &lt;em&gt;feels&lt;&#x2F;em&gt; like a big improvement, I just wish I had data to back it up.&lt;&#x2F;p&gt;
+&lt;p&gt;In this month I have had a lot more free time and it&#x27;s been great. I&#x27;d be lying if I
+said I spent it all well. There was more Shapez 2, ETS2 &amp;amp; Deadlock than I&#x27;d have liked,
+but it&#x27;s much easier to play a single game of Deadlock and then decide to do something
+useful than it is to get myself off Reddit:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Deadlock games come in discrete units and they take up ~50 minutes maximum so it&#x27;s harder to lose time&lt;&#x2F;li&gt;
+&lt;li&gt;Deadlock is way less addictive than basically everything on my phone, so it&#x27;s easier to pull myself away
+from it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Overall I&#x27;d say this is a massive upgrade, because my phone still does what I need it to
+do, without most of the distracting stuff tacked on.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I Broke My Phone</title>
+        <published>2025-06-25T00:00:00+00:00</published>
+        <updated>2025-06-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/i-broke-my-phone/"/>
+        <id>https://phosphorescent.dev/pages/i-broke-my-phone/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/i-broke-my-phone/">&lt;p&gt;...and I don&#x27;t intend on fixing it. Here she is in all her glory:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;broken_phone.jpg&quot; alt=&quot;An iPhone 13 with a broken screen. There are two thick white lines in the right half of the screen. The lines are brighter than the rest of the screen.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I dropped it like 75cm (2.5ft) and this is what happened. I&#x27;m
+pretty mad about it. I even had a &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=cfgHnSflZ04&quot;&gt;Mous phone
+case&lt;&#x2F;a&gt; on it!&lt;&#x2F;p&gt;
+&lt;p&gt;Fortunately, the damage to the screen is purely cosmetic; the touch input still works as
+you&#x27;d expect. Unfortunately the two white bars are exactly where lots of apps decide to
+put useful information. I can get round this by swiping up from the bottom of the screen
+and gently massaging the app into a space that is unobstructed. It&#x27;s just more effort
+than if it weren&#x27;t broken.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;why-i-m-not-going-to-repair-it&quot;&gt;Why I&#x27;m not going to repair it&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#why-i-m-not-going-to-repair-it&quot; aria-label=&quot;Anchor link for: why-i-m-not-going-to-repair-it&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;It&#x27;s still entirely usable for all the things I need to use it for. Online banking,
+emails in a pinch, texting my partner when I&#x27;m at Tesco and I forgot to make a shopping
+list. It&#x27;s still capable of doing all those things, but it&#x27;s &lt;em&gt;&lt;strong&gt;really&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; annoying to
+look at.&lt;&#x2F;p&gt;
+&lt;p&gt;It comes across surprisingly well in the photo; the two white bars are very bright.
+Like, brighter than the max brightness the OS usually allows bright. This alone has made
+my phone so much less appealing to look at. It low-key hurts my eyes even under direct
+sunlight when my pupils are most constricted. Now imagine how it is to look at when
+you&#x27;re on the way to bed. Scrolling through Hacker News whilst I&#x27;m brushing my teeth is
+not something that crosses my mind anymore. And then once I&#x27;ve made it to bed there&#x27;s
+zero chance I&#x27;m looking at my phone again once the lights have been dimmed, because it&#x27;s
+going to flashbang me.&lt;&#x2F;p&gt;
+&lt;p&gt;And better than just helping me fix my sleep, this has also improved my relationship
+with my phone in like 99% of cases. It&#x27;s so frustrating to look at that I&#x27;m just... not
+inclined to pick it up unless I absolutely have to. I have no inclination to pick it up
+and scroll through Instagram whilst I&#x27;m waiting for my M&amp;amp;S Tuscan Style Sausage Penne
+pasta to microwave. I&#x27;d genuinely rather look out the window.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;you-should-break-your-phone-too&quot;&gt;You should break your phone too&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#you-should-break-your-phone-too&quot; aria-label=&quot;Anchor link for: you-should-break-your-phone-too&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I&#x27;d like to say that I will accept no liability or responsibility for any damage that
+you do or don&#x27;t decide to do to your own devices. That being said, this is the most
+liberated from my Psychological Torture Rectangle™ I have felt in a long time.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve been trying for a while to recapture my attention from Zuckerberg &amp;amp; The Tech
+Barons. I&#x27;ve tried all sorts. If you know me, you know I&#x27;m really anal about
+notifications - I literally only get push notifications if my partner texts me. I also
+installed a blocker so that I can&#x27;t get on most of my social media things during the day
+and I only have limited access during the evenings. All of this didn&#x27;t really help.
+Turns out all it takes is significant damage to a £1000 piece of tech!&lt;&#x2F;p&gt;
+&lt;p&gt;I now spend less time whittling away at my mental health by watching the world rot on
+Twitter and I have so much more attention to direct into the stuff that I care about. So
+I&#x27;ve removed a mental health sink and introduced a mental health source all in one go.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s refreshing for my phone to be an intentional part of my day rather than an
+automatic one. I recommend finding a way to make this happen for yourself at all costs.
+Even if it involves breaking your phone.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I&#x27;m Hesitant to Get Involved With AI Safety</title>
+        <published>2025-06-16T00:00:00+00:00</published>
+        <updated>2025-06-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/im-hesitating-to-get-involved-with-ai-safety/"/>
+        <id>https://phosphorescent.dev/pages/im-hesitating-to-get-involved-with-ai-safety/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/im-hesitating-to-get-involved-with-ai-safety/">&lt;p&gt;Last week I had an extremely thought provoking conversation with a careers adviser from
+&lt;a href=&quot;https:&#x2F;&#x2F;80000hours.org&#x2F;&quot;&gt;80,000 Hours&lt;&#x2F;a&gt;. He asked me a lot of interesting questions and
+in particular he pressed me quite hard on why I&#x27;m hesitant to get into the AI safety
+space. I didn&#x27;t have a great answer in the call and I can tell that I have a lot of
+complex feelings on the topic that I need a solid way of expressing. This article is
+written to give myself an opportunity to consolidate and express my feelings.&lt;&#x2F;p&gt;
+&lt;p&gt;In this article I will attempt to avoid talking about things that I haven&#x27;t given a lot
+of thought, because positions that are not well thought out yet are not worth
+presenting. I also acknowledge that a lot of the arguments below are based on how I
+&lt;em&gt;feel&lt;&#x2F;em&gt; right now as opposed to cold hard facts about the state of the world. Again, this
+is because I am attempting to convey &lt;em&gt;why&lt;&#x2F;em&gt; I am hesitant and having feelings is an
+occupational hazard of being human.&lt;&#x2F;p&gt;
+&lt;!-- toc --&gt;
+&lt;h1 id=&quot;why-i-do-hesitate-to-get-involved-with-ai-safety&quot;&gt;Why I &lt;em&gt;do&lt;&#x2F;em&gt; hesitate to get involved with AI safety&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#why-i-do-hesitate-to-get-involved-with-ai-safety&quot; aria-label=&quot;Anchor link for: why-i-do-hesitate-to-get-involved-with-ai-safety&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;ai-safety-is-mostly-london-based&quot;&gt;AI safety is mostly London based&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#ai-safety-is-mostly-london-based&quot; aria-label=&quot;Anchor link for: ai-safety-is-mostly-london-based&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Starting off with an easy one, I have just moved to Bristol with my partner and most of
+the AI safety industry is currently situated in London. I&#x27;m not saying I&#x27;m never going
+to move back to London, but so far I&#x27;m having a pretty good time in Bristol. I think
+point this is pretty easily countered by organising AI safety stuff in Bristol and
+semi-regularly attending events in London (this is a direct recommendation from the
+careers adviser). I think something like this would probably be a very welcome addition
+to the Bristol Tech Hub community and I&#x27;d probably be more than happy to organise some
+events with them. All this being said, it&#x27;s definitely some extra friction that makes it
+harder and I think not having a huge community already will put a lot of work on me to
+start building that environment.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;i-am-very-reluctant-to-use-ai-tools-in-my-own-work&quot;&gt;I am very reluctant to use AI tools in my own work&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#i-am-very-reluctant-to-use-ai-tools-in-my-own-work&quot; aria-label=&quot;Anchor link for: i-am-very-reluctant-to-use-ai-tools-in-my-own-work&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;I am getting the impression that if I wanted to work in the AI safety space, in order to
+be competitive, I would have to use AI tools. I think there are probably far more
+reasons I&#x27;m AI-averse in my workflows, but the top few reasons are as follows.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;hype&quot;&gt;Hype&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#hype&quot; aria-label=&quot;Anchor link for: hype&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I am psychologically allergic to anything that has huge amounts of hype surrounding it.
+I&#x27;ve fallen into the hype trap with many things before only to be extremely
+disappointed. I&#x27;m an &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;patientgamers&#x2F;about&#x2F;&quot;&gt;r&#x2F;patientgamer&lt;&#x2F;a&gt; and
+I detest 99.99% of the stuff produced by the hype of the web 3.0 movement. I see a lot
+of similar promises and marketing coming from the AI space and although it seems like a
+lot of it has more credence than the cryptobros, it makes me uncomfortable how much
+non-technical people are screaming and shouting from the rooftops about it.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;heavy-ai-use-is-a-learning-footgun&quot;&gt;Heavy AI use is a learning footgun&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#heavy-ai-use-is-a-learning-footgun&quot; aria-label=&quot;Anchor link for: heavy-ai-use-is-a-learning-footgun&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I think this argument has been done to death at this point, but it&#x27;s worth reprinting in
+my own words here. I&#x27;m early in my career. This means my priority should be learning as
+much as I can. One of the best lecturers at my university (Dave Wood for any Warwick
+maths alumni) really hammered home that &quot;maths is not a spectator sport&quot;. By this he
+means that the only way that you really learn anything is by engaging deeply with the
+problems in front of you and coming up with your own solutions, not just reading the
+solutions from the textbook. Offloading huge swathes of code-writing to agentic systems
+is like reading solutions from the textbook. If I write the code myself, I learn far
+more about my tech stack, the systems I&#x27;m working on and, most importantly, the business
+case for the feature.&lt;&#x2F;p&gt;
+&lt;p&gt;I think there is a tradeoff about figuring out how to use AI effectively for learning,
+but I don&#x27;t find the LLM feedback loop engaging. This means that I don&#x27;t wake up with
+any innate desire to actually try and hone this skill. Of course this is something that
+can be worked on with time and some persistence, but I just don&#x27;t have much motivation
+because I don&#x27;t find it as satisfying as sitting with a book&#x2F;docs written by the
+experts. In short: I really like learning and using AI systems for anything means that I
+learn less.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;my-job-will-be-way-less-fun&quot;&gt;My job will be &lt;em&gt;way&lt;&#x2F;em&gt; less fun&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#my-job-will-be-way-less-fun&quot; aria-label=&quot;Anchor link for: my-job-will-be-way-less-fun&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I want to start this one by highlighting that I don&#x27;t think software engineering will
+stop being a job title, but what I do think is highly possible is that SWEs will start
+writing less and less code and they will just start becoming a translator for the
+product managers into actionable technical items which will then get delegated to Claude
+Code.&lt;&#x2F;p&gt;
+&lt;p&gt;I like all aspects of being a software engineer, both the problem solving with code and
+the squishy parts where you&#x27;re trying to draw technical requirements from a member of
+the product team. I think the reason I like doing both of those things is because of
+the contrast between the two. I like spending the morning solving fun little logic
+puzzles to make my code work (read: vim macros to bulk edit code, type definitions that
+leave the code open for extension, ensuring the code is robustly testable etc.), and
+then spending the afternoon figuring out what the PM meant on the ticket and learning
+about the business context surrounding my work.&lt;&#x2F;p&gt;
+&lt;p&gt;If agentic LLM systems start taking away the first part, all we&#x27;re left with is the
+second part, and I really don&#x27;t think I will find the second part that much fun if it&#x27;s
+all that I&#x27;m doing. Am I in a privileged position where I find my job fun? Yes. Do I
+feel like I deserve the right to protect that part of my job? Also yes.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;social-safety-vs-capabilities-safety&quot;&gt;Social safety vs. capabilities safety&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#social-safety-vs-capabilities-safety&quot; aria-label=&quot;Anchor link for: social-safety-vs-capabilities-safety&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;This is probably a longer post for a different time, but it seems
+likely to me that we are going to have more issues related to misuse of AI by existing
+social systems and power structures than we are likely to have issues from capabilities.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;80000hours.org&#x2F;problem-profiles&#x2F;artificial-intelligence&#x2F;#what-can-you-do-concretely-to-help&quot;&gt;Based on an 80,000 hours problem profile on the
+topic&lt;&#x2F;a&gt;,
+it&#x27;s likely that my best contribution would be through technical AI safety. With the
+above in mind, I don&#x27;t think that I would be contributing in the way that I think is
+meaningful. In other words: because I am more worried about social issues than
+capabilities issues I should be working in AI governance, but I don&#x27;t think I&#x27;m well
+suited to that type of work.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;why-i-shouldn-t-hesitate-to-get-involved-with-ai-safety&quot;&gt;Why I &lt;em&gt;shouldn&#x27;t&lt;&#x2F;em&gt; hesitate to get involved with AI safety&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#why-i-shouldn-t-hesitate-to-get-involved-with-ai-safety&quot; aria-label=&quot;Anchor link for: why-i-shouldn-t-hesitate-to-get-involved-with-ai-safety&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;the-technology-is-inevitable&quot;&gt;The technology is inevitable&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#the-technology-is-inevitable&quot; aria-label=&quot;Anchor link for: the-technology-is-inevitable&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;To roughly quote the careers adviser, &quot;there are huge economic incentives to make sure
+this technology is embedded everywhere&quot;. This is obviously true. LLMs are everywhere
+already and they&#x27;re only getting more capable and more integrated with our existing
+systems. Someone should make sure that this is done safely. It would be pretty
+catastrophic if the Tesco chat bot was willing to tell everyone how to produce
+neurotoxins; it&#x27;s important to understand the capabilities and limitations of these
+systems if they&#x27;re going to be deployed everywhere.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;there-are-very-few-people-working-on-safety&quot;&gt;There are very few people working on safety&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#there-are-very-few-people-working-on-safety&quot; aria-label=&quot;Anchor link for: there-are-very-few-people-working-on-safety&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;archive.is&#x2F;3Xumj#neglectedness&quot;&gt;80,000 hours estimate that as of 2022 there were ~400 people working on AI
+safety globally&lt;&#x2F;a&gt;. That is a disgustingly small number
+given how huge some of the impacts are predicted to be. Even if the predicted impacts
+are off by several orders of magnitude, it seems silly that we&#x27;re spending ~1,000 times
+less on safety than we are on capabilities.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;i-am-biased&quot;&gt;I am biased&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#i-am-biased&quot; aria-label=&quot;Anchor link for: i-am-biased&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;A lot of my positions as stated above likely come from the fact that I am a software
+engineer from outside the AI space who interacts with lots of other software engineers
+outside the AI space. Naturally, this means that I hear a lot more anti-AI sentiment
+than pro-AI arguments. 80,000 hours sent across a huge list of introductory AI safety
+reading and events that look worth reading and attending. I don&#x27;t think I can honestly
+say I have a balanced view on modern AI systems, their impacts and where their
+capabilities will be in 5-10 years without at least attempting to take this seriously
+and doing some reading.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I think some of the issues listed above are quite high signal, but some of
+them are definitely lower signal. AI safety being mostly based in London is a low signal
+reason not to get involved as there are very clear steps to mitigate that issue, but
+being reluctant to use AI tools and social safety vs capabilities safety are higher
+signal.&lt;&#x2F;p&gt;
+&lt;p&gt;I also think there is likely to be a lot of cognitive dissonance wrapped up in the words
+that I&#x27;ve written and the points that I&#x27;ve articulated. Working in AI safety would
+represent a large change in my character from someone who isn&#x27;t particularly interested
+in the technology to someone who interacts with it full time and uses it to solve
+problems.&lt;&#x2F;p&gt;
+&lt;p&gt;In summary, this post was a good exercise in getting my thoughts out of my brain and
+into some intelligible ideas. This has cleared up a lot of the way that I feel and has
+left me clearer in my position. This position is that lot of the reasons I hesitate are
+purely inside my head and something that I have to get over in my own time by doing
+lots of reading.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#acknowledgements&quot; aria-label=&quot;Anchor link for: acknowledgements&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;Thanks to:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alex Petropoulos for connecting me with 80,000 hours and encouraging me to think
+more about AI safety as an option.&lt;&#x2F;li&gt;
+&lt;li&gt;Kat Emery for proofreading and her unending support of all that I do.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Table of Contents Shortcode for Zola</title>
+        <published>2025-06-16T00:00:00+00:00</published>
+        <updated>2025-06-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/zola-table-of-contents-shortcode/"/>
+        <id>https://phosphorescent.dev/pages/zola-table-of-contents-shortcode/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/zola-table-of-contents-shortcode/">&lt;p&gt;To build this website, I&#x27;m using a tool called &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;. For my
+longer posts, I&#x27;d like to have a table of contents somewhere on the page for easier
+navigation, but I don&#x27;t want it on every page. This could&#x27;ve been achieved by making a
+separate template for the page with a table of contents, but I wanted something a bit
+more flexible that lets me insert the table of contents wherever I want. Apparently
+there&#x27;s not an easy way to do this, so I&#x27;ve come up with a bit of a hack based on an &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&#x2F;issues&#x2F;584&quot;&gt;old
+GitHub issue&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Zola has functionality called
+&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;&quot;&gt;shortcodes&lt;&#x2F;a&gt; which lets you
+call functions to insert text into your markdown before rendering the markdown into into
+HTML. Unfortunately, because shortcodes are expanded &lt;em&gt;before&lt;&#x2F;em&gt; the markdown is parsed,
+they don&#x27;t have access to the attributes of the page. These attributes are exposed at
+the template level, but not the shortcode level. So we have to do some tomfoolery.&lt;&#x2F;p&gt;
+&lt;p&gt;If we create a shortcode called &lt;code&gt;toc&lt;&#x2F;code&gt; that accepts no arguments and returns a constant
+string &lt;code&gt;&amp;lt;!-- toc --&amp;gt;&lt;&#x2F;code&gt;, we can then replace that string with a call to a &lt;a href=&quot;https:&#x2F;&#x2F;keats.github.io&#x2F;tera&#x2F;docs&#x2F;#macros&quot;&gt;Tera
+macro&lt;&#x2F;a&gt; that actually generates the HTML for
+the table of contents. A specific implementation of method can be found in &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Phosphorescentt&#x2F;phosphorescent.dev-zola&#x2F;commit&#x2F;5fb8df16284563c74ee17c43118658f954e686a4#diff-ec96e0fc2f34ad383e10ee3af3c78f2ec64cdf16eba5352cc184f01802f950c9&quot;&gt;this
+commit&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Now when we write some markdown, we can insert &lt;code&gt;toc()&lt;&#x2F;code&gt; surrouneded by double curly
+brackets wherever we want, and we will get a table of contents rendered correctly.
+Below is an example of what the table of contents for this website will look like.&lt;&#x2F;p&gt;
+&lt;!-- toc --&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#header-1&quot; aria-label=&quot;Anchor link for: header-1&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;subheader-1&quot;&gt;Subheader 1&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-1&quot; aria-label=&quot;Anchor link for: subheader-1&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;subheader-2&quot;&gt;Subheader 2&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-2&quot; aria-label=&quot;Anchor link for: subheader-2&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;subheader-3&quot;&gt;Subheader 3&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-3&quot; aria-label=&quot;Anchor link for: subheader-3&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;header-2&quot;&gt;Header 2&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#header-2&quot; aria-label=&quot;Anchor link for: header-2&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;subheader-4&quot;&gt;Subheader 4&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#subheader-4&quot; aria-label=&quot;Anchor link for: subheader-4&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Automatically rename Zellij tabs with Nushell</title>
+        <published>2025-06-07T00:00:00+00:00</published>
+        <updated>2025-06-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/zellij-tab-renaming/"/>
+        <id>https://phosphorescent.dev/pages/zellij-tab-renaming/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/zellij-tab-renaming/">&lt;p&gt;Unfortunately I have a crippling issue with doing ungodly amounts of terminal futzing
+instead of actually doing the stuff that I should be doing. To that end, I have just set
+up automatic tab renaming for Zellij with Nushell and it was remarkably easy.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zellij.dev&#x2F;&quot;&gt;Zellij&lt;&#x2F;a&gt; is a modern alternative to tmux&#x2F;screen and I&#x27;m a real
+sucker for something modern and written in rust. Out of the box, Zellij has a lot of
+really cool functionality, but I&#x27;m a tmux girlie. My Zellij config is very minimal to
+make all the keybinds similar to tmux, the only thing that&#x27;s missing is the automatic
+tab renaming.&lt;&#x2F;p&gt;
+&lt;p&gt;A quick search about automatically renaming tabs in Zellij led me to &lt;a href=&quot;https:&#x2F;&#x2F;haseebmajid.dev&#x2F;posts&#x2F;2024-07-26-how-i-configured-zellij-status-bar&#x2F;&quot;&gt;this
+article&lt;&#x2F;a&gt;.
+The author of this post shows two functions they have added to their fish setup. In
+short, this setup uses Zellij&#x27;s CLI utility to update the title of the tab using fish&#x27;s
+&lt;code&gt;fish_preexec&lt;&#x2F;code&gt; and &lt;code&gt;fish_postexec&lt;&#x2F;code&gt; hooks. In particular it&#x27;s issuing a &lt;code&gt;zellij action rename-tab &amp;lt;tabname&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Nushell also has similar functionality to fish in it&#x27;s
+&lt;a href=&quot;https:&#x2F;&#x2F;www.nushell.sh&#x2F;book&#x2F;hooks.html#hooks&quot;&gt;hooks&lt;&#x2F;a&gt;. Combining all this together, we
+can configure a couple of hooks to rename Zellij tabs wheneve we do something in the
+command line. This gives us something like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;nu&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-nu &quot;&gt;&lt;code class=&quot;language-nu&quot; data-lang=&quot;nu&quot;&gt;&lt;span&gt;$env.config = ($env.config | upsert hooks {
+&lt;&#x2F;span&gt;&lt;span&gt;    pre_prompt: [ { 
+&lt;&#x2F;span&gt;&lt;span&gt;        zellij action rename-tab &amp;quot;nu&amp;quot;;
+&lt;&#x2F;span&gt;&lt;span&gt;    } ]
+&lt;&#x2F;span&gt;&lt;span&gt;    pre_execution: [ { || 
+&lt;&#x2F;span&gt;&lt;span&gt;        mut repl_commandline = (commandline)
+&lt;&#x2F;span&gt;&lt;span&gt;        if ($repl_commandline | str length) &amp;gt; 15 {
+&lt;&#x2F;span&gt;&lt;span&gt;            $repl_commandline = ($repl_commandline | str substring 0..14) + &amp;quot;...&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        }
+&lt;&#x2F;span&gt;&lt;span&gt;        zellij action rename-tab ($repl_commandline)
+&lt;&#x2F;span&gt;&lt;span&gt;    } ]
+&lt;&#x2F;span&gt;&lt;span&gt;})
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The &lt;code&gt;pre_execution&lt;&#x2F;code&gt; hook is what lets us get a string value of the command currently
+being run and &lt;code&gt;pre_prompt&lt;&#x2F;code&gt; resets the tab name back to &quot;nu&quot; every time we return to the
+repl. The only special thing of note here is the call to &lt;code&gt;str substring 0..14&lt;&#x2F;code&gt; which just takes
+the first 15 characters of the command being issued - just to make sure we don&#x27;t end up
+with silly long tab names.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Conversation on Claude Code</title>
+        <published>2025-06-05T00:00:00+00:00</published>
+        <updated>2025-06-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/a-conversation-on-claude-code/"/>
+        <id>https://phosphorescent.dev/pages/a-conversation-on-claude-code/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/a-conversation-on-claude-code/">&lt;p&gt;Probably a bit late to the conversation on this one as I&#x27;m currently between jobs and so
+I don&#x27;t have 40 minute gaps whilst tests run to read Hacker News, but Anthropic have
+just released a video discussing &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Yf_1w00qIKc&quot;&gt;Claude
+Code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Honestly this is a cool piece of tooling and this is the direction that I&#x27;d like to see
+LLM&#x2F;AI stuff continue to move. Having something that keeps out of your way until you
+want it is great, as opposed to things like Microsoft forcing Copilot down every GitHub
+user&#x27;s throat. A CLI tool that I can use only when I want it is great! It also sets the
+incentive up to build something that&#x27;s actually useful. If Claude Code isn&#x27;t useful I
+just wont use it and it won&#x27;t get in my way. In other words, I am glad that we have
+moved away from autocompletes.&lt;&#x2F;p&gt;
+&lt;p&gt;I haven&#x27;t had the chance to give Claude Code a proper once over, but already I can see a
+few issues.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cost&quot;&gt;Cost&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#cost&quot; aria-label=&quot;Anchor link for: cost&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;In the video, Boris is saying that you can probably get away with 5$ for the weekend,
+but if you want to use Claude Code routinely then you&#x27;re looking at at least 50-100$ per
+month. 100$&#x2F;month is enough money that it&#x27;s inacessible to most people and I think this
+is probably going to exacerbate issues that we&#x27;re already having with inequality.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;security&quot;&gt;Security&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#security&quot; aria-label=&quot;Anchor link for: security&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Maybe I just have anxiety, but letting Claude run wild on my personal machine seems
+crazy. Does it do any kind of sandboxing or anything like that? It&#x27;s unclear to me, but
+at face value it doesn&#x27;t seem like there&#x27;s anything stopping Claude from hitting me with
+an &lt;code&gt;rm -rf &#x2F;&lt;&#x2F;code&gt;. I don&#x27;t think it&#x27;s going to exfiltrate my secrets anywhere, but I just
+don&#x27;t trust it not to do silly things to my system that it ought not to. In fairness,
+seems like they have &lt;a href=&quot;https:&#x2F;&#x2F;docs.anthropic.com&#x2F;en&#x2F;docs&#x2F;claude-code&#x2F;security&quot;&gt;quite granular
+controls&lt;&#x2F;a&gt; over what Claude can
+be allowed to do in your system, so maybe I &lt;em&gt;do&lt;&#x2F;em&gt; have anxiety.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;remote-only&quot;&gt;Remote only&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#remote-only&quot; aria-label=&quot;Anchor link for: remote-only&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Of course I wouldn&#x27;t necessarily expect this out the gate from Anthropic as they stand
+to make money off Claude Code, but I struggle to be super happy about tools whose only
+backend is a paid service with no option of moving over to self hosting something. It&#x27;s
+not that I disagree with Anthropic&#x27;s model, it&#x27;s just a shame to build what looks like
+such a good UI and give it only a proprietary backend. I&#x27;m sure it&#x27;s only a matter of
+time before there&#x27;s a really good open source alternative anyway.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Vim :g command</title>
+        <published>2025-05-28T00:00:00+00:00</published>
+        <updated>2025-05-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/vim-g-command/"/>
+        <id>https://phosphorescent.dev/pages/vim-g-command/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/vim-g-command/">&lt;p&gt;I have been using some variation of Vim on and off since ~2012. And in that time I have
+learned staggeringly little about the editor. In comes &lt;a href=&quot;https:&#x2F;&#x2F;www.vimgolf.com&#x2F;&quot;&gt;Vim
+Golf&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Long story short, today I learned about the &lt;code&gt;:g&lt;&#x2F;code&gt; command. &lt;code&gt;g&lt;&#x2F;code&gt; is short for global and
+lets you run an &lt;code&gt;Ex&lt;&#x2F;code&gt; command across all lines matching some pattern in your current
+buffer. This can be used to quickly do things like:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete all blank lines: &lt;code&gt;:g&#x2F;^\s*&amp;amp;&#x2F;d&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Delete all lines containing only Python comments: &lt;code&gt;:g&#x2F;^\s*# *&#x2F;d&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Copy all lines matching the pattern to register &lt;code&gt;a&lt;&#x2F;code&gt;: &lt;code&gt;qaq:g&#x2F;pattern&#x2F;y A&lt;&#x2F;code&gt; (where &lt;code&gt;qaq&lt;&#x2F;code&gt;
+starts recording a macro into register &lt;code&gt;a&lt;&#x2F;code&gt; and immediately exits, leaving &lt;code&gt;a&lt;&#x2F;code&gt; empty and
+&lt;code&gt;y A&lt;&#x2F;code&gt; appends to register &lt;code&gt;a&lt;&#x2F;code&gt; each line matched)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to Choose a Book for People Who Don&#x27;t Know What to Read</title>
+        <published>2025-05-06T00:00:00+00:00</published>
+        <updated>2025-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/how-to-choose-a-book/"/>
+        <id>https://phosphorescent.dev/pages/how-to-choose-a-book/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/how-to-choose-a-book/">&lt;p&gt;If you don&#x27;t read very much and you feel overwhelmed by the number of books you feel
+like you &lt;em&gt;should&lt;&#x2F;em&gt; be reading, I have a pretty simple strategy for how to pick books
+worth reading: &lt;strong&gt;pick something that&#x27;s been on the shelves in high street book stores
+for years.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s really that simple. Books that have been on sale in physical stores for a long time
+must be good enough to have some cultural sticking power which means they&#x27;re probably
+worth reading. The best case is that you&#x27;ve read a classic book that is culturally
+relevant and you enjoyed it. The worst case is that you&#x27;ve read a classic book that is
+culturally relevant and you&#x27;re more informed for it. And realistically if you&#x27;re reading
+for fun then you don&#x27;t have to finish anything, you can just give the book a go and put
+it down if you hate it. I&#x27;ve been doing this for a while now and I&#x27;ve been much better
+off for it. It removes a lot of the decision paralysis about what to read. Now I can
+settle for just picking up a copy of something like 1984, Pride &amp;amp; Prejudice or War &amp;amp;
+Peace.&lt;&#x2F;p&gt;
+&lt;p&gt;An extension to this idea is that you also pick books that people in your circle bring
+up regularly. Using this addition has a similar tradeoff to the above: if you read a
+book that someone recommended to you and you hate it, you have at least gained one new
+thing to talk to them about. If you love it, then you had a good time and you&#x27;ve still
+got the conversation point! I have also applied this idea to more types of creative work
+than just books. I wouldn&#x27;t have watched Breaking Bad, The Silence of the Lambs or
+Memento if I hadn&#x27;t been given glowing recommendations by my friends.&lt;&#x2F;p&gt;
+&lt;p&gt;There is one (possibly huge) caveat to this approach: I feel very strongly that it&#x27;s
+important to read &amp;amp; engage with creative works that are part of modern culture. If you
+aren&#x27;t interested in reading to understand the zeitgeist (which is a totally valid
+reason to read!) then this method may not work so well for you. But if you do give this
+a go, let me know how it works out for you :)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About Me</title>
+        <published>2025-04-06T00:00:00+00:00</published>
+        <updated>2025-04-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/about/"/>
+        <id>https://phosphorescent.dev/about/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/about/">&lt;p&gt;Heya! I&#x27;m Freya! I&#x27;m a 24 year old, Bristol-based software engineer with a background in
+mathematics. I mostly write backend-data-style Python at the moment, but am trying to
+expand my horizons into systems programming via Rust. I spend more time than I care to
+admit lurking on Hacker News and &lt;a href=&quot;https:&#x2F;&#x2F;lobste.rs&#x2F;&quot;&gt;lobste.rs&lt;&#x2F;a&gt; with the hope that I
+internalise more of the good ideas than the bad ones. I am very interested in all
+aspects of software engineering and I&#x27;m always super excited to learn new things about
+computers and the systems &amp;amp; culture that enable us to work with them.&lt;&#x2F;p&gt;
+&lt;p&gt;Outside of the technical realm, I am very passionate about bass music (drum and bass in
+particular) mostly because it is unbelievably good for my soul. I also love spending
+time with my dog, Monty, and my loving partner, Kat.&lt;&#x2F;p&gt;
+&lt;p&gt;And when I don&#x27;t feel like being productive, you can probably catch me playing Factorio,
+Celeste, Deadlock or Trackmania.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Functional programming streamlines additional behaviour</title>
+        <published>2025-03-27T00:00:00+00:00</published>
+        <updated>2025-04-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/functional-vs-oop/"/>
+        <id>https://phosphorescent.dev/pages/functional-vs-oop/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/functional-vs-oop/">&lt;p&gt;Below is a quote I found from an &lt;a href=&quot;https:&#x2F;&#x2F;chelseatroy.com&#x2F;2021&#x2F;05&#x2F;01&#x2F;building-an-interpreter-the-visitor-pattern&#x2F;&quot;&gt;article on the visitor
+pattern&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bob explains that we have two ways to orient our code. We could do it with objects, by
+having each of these expressions represented as classes handling all their own
+operations, or we could do it with functions that switch their behavior based on which
+type of expression they have been passed. The former (object) pattern makes it less
+work to add a new expression class and more work to add a new behavior, since we have
+to crack open every existing class to do it. The latter (functional) pattern makes it
+less work to add a new behavior, since we just need to write a new function without
+changing existing code. Adding a new expression, though, means cracking open all the
+existing functions and adding a case to each.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is a summary of functional vs object oriented approaches that I haven&#x27;t seen
+before. This perspective helps me explain &lt;em&gt;why&lt;&#x2F;em&gt; I prefer functional approaches to
+solving software problems as opposed to object oriented ones: my (admittedly limited)
+professional experience to date has shown me that underlying data models don&#x27;t change
+that much, but the behaviour often does.&lt;&#x2F;p&gt;
+&lt;p&gt;With this in mind, it seems clear to me that we should adopt some of functional
+approaches to solving problems as it gives us more agility when the product requirements
+aren&#x27;t very well defined, but the shape of the data is. Of course, if you know that your
+behaviour is unlikely to change very much, but your model space isn&#x27;t well understood
+then perhaps an object oriented approach will work better.&lt;&#x2F;p&gt;
+&lt;p&gt;This is all personal opinion from someone who has been data engineering for most of
+their career so take this interpretation with a pinch of salt.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>phosphorescent.dev</title>
+        <published>2025-03-27T00:00:00+00:00</published>
+        <updated>2025-06-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/phosphorescent-dev/"/>
+        <id>https://phosphorescent.dev/pages/phosphorescent-dev/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/phosphorescent-dev/">&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;This website is the first project that I am documenting here. At present, it looks very
+primitive and untidy which is because it is. I haven&#x27;t touched any front end in a long
+time as I have mostly been data engineering with Python. So why not do a little side
+project to show off my work and develop some new skills?&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;tech-stack&quot;&gt;Tech Stack&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#tech-stack&quot; aria-label=&quot;Anchor link for: tech-stack&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;This site is generated from a set of markdown documents and
+&lt;a href=&quot;https:&#x2F;&#x2F;keats.github.io&#x2F;tera&quot;&gt;Tera&lt;&#x2F;a&gt; templates using &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.
+The styling is mostly done with &lt;a href=&quot;https:&#x2F;&#x2F;tailwindcss.com&#x2F;&quot;&gt;Tailwind&lt;&#x2F;a&gt; as I&#x27;ve heard good
+things about it from colleagues &amp;amp; peers. My final verdict on it remains to be seen, but
+my first impressions are good. I haven&#x27;t quite figured out where I want to host this
+site yet, but the easiest place is probably GitHub pages.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;philosophy&quot;&gt;Philosophy&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#philosophy&quot; aria-label=&quot;Anchor link for: philosophy&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I picked something simple and rolled my own theme for Zola so that I don&#x27;t get tied into
+some specific way of thinking. I want to be able to share stuff in whatever way makes
+the most sense for me and my use case so having someone else decide for me seems wrong.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;future-improvements&quot;&gt;Future Improvements&lt;a class=&quot;zola-anchor text-base text-pink-600&quot; href=&quot;#future-improvements&quot; aria-label=&quot;Anchor link for: future-improvements&quot;&gt; ¶&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Find out if I can specify a different template on a per page basis. This would let
+me use taxonomies instead of folders, but i want to be able to have diff formatting per
+term in a &lt;code&gt;category&lt;&#x2F;code&gt; taxonomy.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Find a nice way to add in a &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;table-of-contents&#x2F;&quot;&gt;table of
+contents&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make the tags on the post page look nicer.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Sort links on home page by relevant attribute from section.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Limit links on home page to highest 10-20.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Make it clear when one link on the home page ends and another one begins (cards or
+something).
+&lt;ul&gt;
+&lt;li&gt;This has been done by adding dates. I&#x27;m not the biggest fan of this solution, but
+it&#x27;s better than nothing.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Make styling consistent across the entire website (currently I am just doing
+whatever feels good and works).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Mobile.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Populate the website with some real content.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Add dates to pages listed in taxonomies.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make the &lt;code&gt;taxonomy_list.html&lt;&#x2F;code&gt; template prettier.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

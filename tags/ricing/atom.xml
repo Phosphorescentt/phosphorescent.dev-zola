@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - ricing</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/ricing/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-07T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/ricing/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Automatically rename Zellij tabs with Nushell</title>
+        <published>2025-06-07T00:00:00+00:00</published>
+        <updated>2025-06-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/zellij-tab-renaming/"/>
+        <id>https://phosphorescent.dev/pages/zellij-tab-renaming/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/zellij-tab-renaming/">&lt;p&gt;Unfortunately I have a crippling issue with doing ungodly amounts of terminal futzing
+instead of actually doing the stuff that I should be doing. To that end, I have just set
+up automatic tab renaming for Zellij with Nushell and it was remarkably easy.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zellij.dev&#x2F;&quot;&gt;Zellij&lt;&#x2F;a&gt; is a modern alternative to tmux&#x2F;screen and I&#x27;m a real
+sucker for something modern and written in rust. Out of the box, Zellij has a lot of
+really cool functionality, but I&#x27;m a tmux girlie. My Zellij config is very minimal to
+make all the keybinds similar to tmux, the only thing that&#x27;s missing is the automatic
+tab renaming.&lt;&#x2F;p&gt;
+&lt;p&gt;A quick search about automatically renaming tabs in Zellij led me to &lt;a href=&quot;https:&#x2F;&#x2F;haseebmajid.dev&#x2F;posts&#x2F;2024-07-26-how-i-configured-zellij-status-bar&#x2F;&quot;&gt;this
+article&lt;&#x2F;a&gt;.
+The author of this post shows two functions they have added to their fish setup. In
+short, this setup uses Zellij&#x27;s CLI utility to update the title of the tab using fish&#x27;s
+&lt;code&gt;fish_preexec&lt;&#x2F;code&gt; and &lt;code&gt;fish_postexec&lt;&#x2F;code&gt; hooks. In particular it&#x27;s issuing a &lt;code&gt;zellij action rename-tab &amp;lt;tabname&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Nushell also has similar functionality to fish in it&#x27;s
+&lt;a href=&quot;https:&#x2F;&#x2F;www.nushell.sh&#x2F;book&#x2F;hooks.html#hooks&quot;&gt;hooks&lt;&#x2F;a&gt;. Combining all this together, we
+can configure a couple of hooks to rename Zellij tabs wheneve we do something in the
+command line. This gives us something like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;nu&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-nu &quot;&gt;&lt;code class=&quot;language-nu&quot; data-lang=&quot;nu&quot;&gt;&lt;span&gt;$env.config = ($env.config | upsert hooks {
+&lt;&#x2F;span&gt;&lt;span&gt;    pre_prompt: [ { 
+&lt;&#x2F;span&gt;&lt;span&gt;        zellij action rename-tab &amp;quot;nu&amp;quot;;
+&lt;&#x2F;span&gt;&lt;span&gt;    } ]
+&lt;&#x2F;span&gt;&lt;span&gt;    pre_execution: [ { || 
+&lt;&#x2F;span&gt;&lt;span&gt;        mut repl_commandline = (commandline)
+&lt;&#x2F;span&gt;&lt;span&gt;        if ($repl_commandline | str length) &amp;gt; 15 {
+&lt;&#x2F;span&gt;&lt;span&gt;            $repl_commandline = ($repl_commandline | str substring 0..14) + &amp;quot;...&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        }
+&lt;&#x2F;span&gt;&lt;span&gt;        zellij action rename-tab ($repl_commandline)
+&lt;&#x2F;span&gt;&lt;span&gt;    } ]
+&lt;&#x2F;span&gt;&lt;span&gt;})
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The &lt;code&gt;pre_execution&lt;&#x2F;code&gt; hook is what lets us get a string value of the command currently
+being run and &lt;code&gt;pre_prompt&lt;&#x2F;code&gt; resets the tab name back to &quot;nu&quot; every time we return to the
+repl. The only special thing of note here is the call to &lt;code&gt;str substring 0..14&lt;&#x2F;code&gt; which just takes
+the first 15 characters of the command being issued - just to make sure we don&#x27;t end up
+with silly long tab names.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

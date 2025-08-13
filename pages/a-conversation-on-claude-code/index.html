@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>phosphorescent.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      html {
+        @apply bg-neutral-200 text-neutral-950 text-4xl w-screen md:text-base;
+        font-family: "Libre Baskerville", serif;
+      }
+      a {
+        @apply text-pink-600;
+      }
+      a:visited {
+        @apply text-pink-900 underline decoration-wavy;
+      }
+      h1 {
+        @apply text-2xl mt-5;
+      }
+      h2 {
+        @apply text-xl mt-5;
+      }
+      h3 {
+        @apply text-lg mt-5;
+      }
+      h4 {
+        @apply text-base mt-5;
+      }
+      h5 {
+        @apply text-sm mt-5;
+      }
+      h6 {
+        @apply text-xs;
+      }
+      p {
+        @apply text-justify mt-3 mb-3;
+      }
+      blockquote {
+        @apply pl-3 border-l-2 border-neutral-950 italic;
+      }
+      ul {
+        @apply list-disc list-outside pl-5;
+      }
+	  ol {
+	    @apply list-decimal list-outside pl-5;
+	  }
+      li:has(input[type="checkbox"]) {
+        @apply list-none
+      }
+      li:has(input[type="checkbox"]:checked) {
+        @apply line-through
+      }
+      li input {
+        @apply w-3 h-3 mr-1 -ml-5;
+      }
+      pre:has(code) {
+        @apply rounded-lg p-2 overflow-x-scroll;
+      }
+      hr {
+        @apply border-neutral-500 my-2
+      }
+      p:has(img) {
+        @apply block text-center
+      }
+      img {
+        @apply w-3/4 m-auto border-4 rounded-xs p-1 border-pink-900
+      }
+    </style>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <section class="section flex justify-left">
+      <div class="m-5 w-screen max-w-160">
+        <h1 class="font-bold">
+          <a
+            href="/"
+            class="text-neutral-950 decoration-neutral-950 underline hover:decoration-wavy hover:decoration-pink-600 visited:hover:decoration-pink-900"
+          >
+            <div class="text-neutral-950 place-self-start">
+              phosphorescent.dev
+            </div>
+          </a>
+        </h1>
+        <div class="m-5">
+<h1 class="title">
+  A Conversation on Claude Code
+</h1>
+<p class="subtitle mt-2"><strong>2025-06-05</strong>
+  
+  <br>
+  
+    
+      <a href="/tags/llms">llms</a>
+    
+      <a href="/tags/anthropic">anthropic</a>
+    
+      <a href="/tags/claude">claude</a>
+    
+      <a href="/tags/vibe-coding">vibe-coding</a>
+    
+      <a href="/tags/ai">ai</a>
+    
+  
+
+</p>
+<p>Probably a bit late to the conversation on this one as I'm currently between jobs and so
+I don't have 40 minute gaps whilst tests run to read Hacker News, but Anthropic have
+just released a video discussing <a href="https://www.youtube.com/watch?v=Yf_1w00qIKc">Claude
+Code</a>.</p>
+<p>Honestly this is a cool piece of tooling and this is the direction that I'd like to see
+LLM/AI stuff continue to move. Having something that keeps out of your way until you
+want it is great, as opposed to things like Microsoft forcing Copilot down every GitHub
+user's throat. A CLI tool that I can use only when I want it is great! It also sets the
+incentive up to build something that's actually useful. If Claude Code isn't useful I
+just wont use it and it won't get in my way. In other words, I am glad that we have
+moved away from autocompletes.</p>
+<p>I haven't had the chance to give Claude Code a proper once over, but already I can see a
+few issues.</p>
+<h2 id="cost">Cost<a class="zola-anchor text-base text-pink-600" href="#cost" aria-label="Anchor link for: cost"> ¶</a>
+</h2>
+<p>In the video, Boris is saying that you can probably get away with 5$ for the weekend,
+but if you want to use Claude Code routinely then you're looking at at least 50-100$ per
+month. 100$/month is enough money that it's inacessible to most people and I think this
+is probably going to exacerbate issues that we're already having with inequality.</p>
+<h2 id="security">Security<a class="zola-anchor text-base text-pink-600" href="#security" aria-label="Anchor link for: security"> ¶</a>
+</h2>
+<p>Maybe I just have anxiety, but letting Claude run wild on my personal machine seems
+crazy. Does it do any kind of sandboxing or anything like that? It's unclear to me, but
+at face value it doesn't seem like there's anything stopping Claude from hitting me with
+an <code>rm -rf /</code>. I don't think it's going to exfiltrate my secrets anywhere, but I just
+don't trust it not to do silly things to my system that it ought not to. In fairness,
+seems like they have <a href="https://docs.anthropic.com/en/docs/claude-code/security">quite granular
+controls</a> over what Claude can
+be allowed to do in your system, so maybe I <em>do</em> have anxiety.</p>
+<h2 id="remote-only">Remote only<a class="zola-anchor text-base text-pink-600" href="#remote-only" aria-label="Anchor link for: remote-only"> ¶</a>
+</h2>
+<p>Of course I wouldn't necessarily expect this out the gate from Anthropic as they stand
+to make money off Claude Code, but I struggle to be super happy about tools whose only
+backend is a paid service with no option of moving over to self hosting something. It's
+not that I disagree with Anthropic's model, it's just a shame to build what looks like
+such a good UI and give it only a proprietary backend. I'm sure it's only a matter of
+time before there's a really good open source alternative anyway.</p>
+
+</div>
+      </div>
+    </section>
+  </body>
+</html>

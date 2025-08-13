@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - reading</title>
+    <link rel="self" type="application/atom+xml" href="https://phosphorescent.dev/tags/reading/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://phosphorescent.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-01T00:00:00+00:00</updated>
+    <id>https://phosphorescent.dev/tags/reading/atom.xml</id>
+    <entry xml:lang="en">
+        <title>How to Choose a Book for People Who Don&#x27;t Know What to Read</title>
+        <published>2025-05-06T00:00:00+00:00</published>
+        <updated>2025-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://phosphorescent.dev/pages/how-to-choose-a-book/"/>
+        <id>https://phosphorescent.dev/pages/how-to-choose-a-book/</id>
+        
+        <content type="html" xml:base="https://phosphorescent.dev/pages/how-to-choose-a-book/">&lt;p&gt;If you don&#x27;t read very much and you feel overwhelmed by the number of books you feel
+like you &lt;em&gt;should&lt;&#x2F;em&gt; be reading, I have a pretty simple strategy for how to pick books
+worth reading: &lt;strong&gt;pick something that&#x27;s been on the shelves in high street book stores
+for years.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s really that simple. Books that have been on sale in physical stores for a long time
+must be good enough to have some cultural sticking power which means they&#x27;re probably
+worth reading. The best case is that you&#x27;ve read a classic book that is culturally
+relevant and you enjoyed it. The worst case is that you&#x27;ve read a classic book that is
+culturally relevant and you&#x27;re more informed for it. And realistically if you&#x27;re reading
+for fun then you don&#x27;t have to finish anything, you can just give the book a go and put
+it down if you hate it. I&#x27;ve been doing this for a while now and I&#x27;ve been much better
+off for it. It removes a lot of the decision paralysis about what to read. Now I can
+settle for just picking up a copy of something like 1984, Pride &amp;amp; Prejudice or War &amp;amp;
+Peace.&lt;&#x2F;p&gt;
+&lt;p&gt;An extension to this idea is that you also pick books that people in your circle bring
+up regularly. Using this addition has a similar tradeoff to the above: if you read a
+book that someone recommended to you and you hate it, you have at least gained one new
+thing to talk to them about. If you love it, then you had a good time and you&#x27;ve still
+got the conversation point! I have also applied this idea to more types of creative work
+than just books. I wouldn&#x27;t have watched Breaking Bad, The Silence of the Lambs or
+Memento if I hadn&#x27;t been given glowing recommendations by my friends.&lt;&#x2F;p&gt;
+&lt;p&gt;There is one (possibly huge) caveat to this approach: I feel very strongly that it&#x27;s
+important to read &amp;amp; engage with creative works that are part of modern culture. If you
+aren&#x27;t interested in reading to understand the zeitgeist (which is a totally valid
+reason to read!) then this method may not work so well for you. But if you do give this
+a go, let me know how it works out for you :)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
